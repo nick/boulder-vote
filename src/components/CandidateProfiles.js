@@ -13,7 +13,7 @@ class CandidateProfiles extends Component {
                   <div
                     className="candidate-img"
                     style={{
-                      backgroundImage: `url(https://i.vimeocdn.com/video/${c.videoThumbnail}_640.webp)`,
+                      backgroundImage: `url(https://i.vimeocdn.com/video/${c.videoThumbnail}_640.png)`,
                       backgroundPositionX: c.offsetX || '50%',
                       backgroundPositionY: c.offsetY || '5%',
                       backgroundSize: c.thumbnailSize || '275%'
