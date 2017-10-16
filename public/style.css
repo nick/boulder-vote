@@ -1,0 +1,84 @@
+
+.social-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 22px;
+  color: #fff;
+  text-shadow: 1px 1px rgba(0,0,0,0.2);
+  font-size: 14px;
+  box-shadow: inset 0 0 2px 0 rgba(255,255,255,0.5);
+  border: 1px solid #f29327;
+  background: #fdae51;
+  margin: 0 0.125rem;
+}
+.social-icon:hover {
+  color: #fff;
+}
+.social-icon.fb {
+  border: 1px solid #3b67b8;
+  background: #6484bf;
+}
+.social-icon.tw {
+  border: 1px solid #37a7da;
+  background: #7abfdf;
+}
+
+.side-link .c {
+  color: #ccc;
+  margin-right: 0.25rem;
+  visibility: hidden;
+}
+.side-link:hover .c {
+  visibility: visible;
+}
+.side-link.active .c {
+  visibility: visible;
+  color: #000;
+}
+
+.candidate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #eee;
+  padding: 1rem;
+  box-shadow: 1px 1px 3px 0 #f2f2f2;
+  background-color: #fff;
+  background-size: 100% 200px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to top,#fafafa 0,#fdfdfd 20%,#fff 60%);
+  margin-bottom: 1.5rem;
+  transition: all 0.1s;
+}
+.candidate:hover {
+  transform: scale(1.1);
+  transition: all 0.1s;
+  cursor: pointer;
+}
+.candidate .website {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 0.5rem;
+}
+.candidate h5 {
+  margin-bottom: 0.5rem;
+}
+
+.candidate-links a {
+  display: block;
+}
+
+.candidate-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 0.5rem;
+}
