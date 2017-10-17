@@ -2,6 +2,7 @@ import React from 'react'
 import { Redirect } from 'react-router';
 import { Helmet } from 'react-helmet';
 
+import shuffleEachDay from '../../lib/shuffleEachDay';
 import Candidates from '../../data/Candidates';
 import IssueData from '../../data/Issues';
 
@@ -31,7 +32,7 @@ const Issues = (props) => {
           </a>
         </div>
 
-        {issue.answers.map(answer => {
+        {shuffleEachDay(issue.answers).map(answer => {
           var issueCandidates = findCandidates(issue, answer);
           if (!issueCandidates.length) { return null }
           return (

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet'
 
+import shuffleEachDay from '../../lib/shuffleEachDay'
 import Candidates from '../../data/Candidates';
 import Groups from '../../data/Groups';
 
@@ -64,7 +65,7 @@ const Candidate = (props) => {
             </div>
             <div className="col-md-4 mb-3">
               <h5>Endorsed by:</h5>
-              {endorsements.map(g =>
+              {shuffleEachDay(endorsements).map(g =>
                 <div key={g.id}>
                   <Link to={`/endorsement/${g.id}`}>{g.name}</Link>
                 </div>
@@ -75,7 +76,7 @@ const Candidate = (props) => {
         <div className="col-sm-4 col-md-3 order-sm-1">
           <h5 className="mt-3">Candidates</h5>
           <ul className="list-unstyled">
-            {Candidates.map(c =>
+            {shuffleEachDay(Candidates).map(c =>
               <SideBarLink
                 key={c.id}
                 location={props.location}

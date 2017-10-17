@@ -2,6 +2,7 @@ import React from 'react'
 import { Redirect } from 'react-router';
 import { Helmet } from 'react-helmet'
 
+import shuffleEachDay from '../../lib/shuffleEachDay'
 import Candidates from '../../data/Candidates';
 import Groups from '../../data/Groups';
 
@@ -29,7 +30,7 @@ const Endorsements = (props) => {
             </div>
           }
         </div>
-        <CandidateProfiles candidates={candidates}/>
+        <CandidateProfiles candidates={shuffleEachDay(candidates)}/>
       </div>
     )
 }

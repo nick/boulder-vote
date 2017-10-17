@@ -1,6 +1,8 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
+import shuffleEachDay from '../../lib/shuffleEachDay'
+
 import Groups from "../../data/Groups";
 import IssueData from "../../data/Issues";
 
@@ -23,7 +25,7 @@ const CandidatesWrapper = props => {
       <div className="col-sm-4 col-md-3 order-sm-1">
         <h5 className="mt-3">Endorsements</h5>
         <ul className="list-unstyled">
-          {Groups.map(g => (
+          {shuffleEachDay(Groups).map(g => (
             <SideBarLink
               key={g.id}
               location={props.location}
@@ -34,7 +36,7 @@ const CandidatesWrapper = props => {
         </ul>
         <h5 className="mt-3">Issues</h5>
         <ul className="list-unstyled">
-          {IssueData.map(i => (
+          {shuffleEachDay(IssueData).map(i => (
             <SideBarLink
               key={i.id}
               location={props.location}
