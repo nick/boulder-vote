@@ -10,6 +10,9 @@ export default class AllCandidates extends Component {
         return (
           <div>
             <Helmet title="Boulder City Council Candidates" />
+            <h5 style={{ marginBottom: '1.5rem' }}>
+              Boulder City Council Candidates
+            </h5>
             <CandidateProfiles candidates={Candidates} />
           </div>
         )

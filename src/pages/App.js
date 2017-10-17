@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Switch, Route, Link } from 'react-router-dom';
+import { Switch, Route, Link, NavLink } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 import daysToGo from '../lib/daysToGo';
@@ -41,16 +41,24 @@ class App extends Component {
                   <span className="navbar-toggler-icon" />
                 </button>
                 <div className={`navbar-collapse collapse${this.state.toggled ? ' show' : ''}`}>
-                  <span className="navbar-text mr-auto">
+                  <span className="navbar-text mr-auto d-none d-sm-block">
                     {`${daysToGo()} days until election!`}
                   </span>
                   <ul className="navbar-nav">
-                    <li className="nav-item active">
-                      <Link
+                    <li className="nav-item">
+                      <NavLink
+                        className="nav-link"
+                        exact
+                        to="/"
+                        onClick={() => this.setState({ toggled: false })}
+                      >Candidates</NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink
                         className="nav-link"
                         to="/about"
                         onClick={() => this.setState({ toggled: false })}
-                      >About</Link>
+                      >About</NavLink>
                     </li>
                   </ul>
                 </div>
