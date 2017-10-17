@@ -16,9 +16,12 @@
     "babel-core": "^6.26.0",
     "babel-preset-react": "^6.24.1",
     "express": "^4.16.2",
+    "moment": "^2.19.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "serve-static": "^1.13.1",
+    "seedrandom": "^2.4.3",
+    "shuffle-array": "^1.0.1",
     "webpack": "^3.7.1"
   },
   "babel": {
