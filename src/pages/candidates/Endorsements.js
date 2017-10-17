@@ -24,7 +24,7 @@ const Endorsements = (props) => {
         <div className="mb-3">
           <h5>{endorser.name} endorsements</h5>
           {!endorser.endorsements ? null :
-            <div>
+            <div style={{ wordBreak: 'break-word' }}>
               Source: <a href={endorser.endorsements} target="_blank">{endorser.endorsements}</a>
             </div>
           }

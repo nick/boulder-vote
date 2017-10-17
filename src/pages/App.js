@@ -71,6 +71,11 @@ class App extends Component {
                 <Route path="/candidate/:id" component={Candidate} />
                 <Route component={Candidates} />
               </Switch>
+              <div className="footer">
+                &copy; 2017 <a href="https://twitter.com/nick_p">Nick Poulden</a>
+                <span>&bull;</span>
+                Source on <a href="https://github.com/nick/boulder-vote">GitHub</a>
+              </div>
             </div>
           </div>
         )
