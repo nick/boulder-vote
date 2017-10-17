@@ -19,3 +19,9 @@ It is built using React JS and node.js.
 
     npm run build
     NODE_ENV=production npm start
+
+## Technologies
+
+- ReactJS 16, React Router 4
+- Bootstrap 4
+- Webpack + Babel

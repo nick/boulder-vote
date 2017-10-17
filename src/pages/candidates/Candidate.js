@@ -50,17 +50,15 @@ const Candidate = (props) => {
               </div>
               <div>{`${candidate.yearsInBoulder} years in Boulder`}</div>
               <div className="candidate-links mt-3">
-                <a href={candidate.blueLineProfile} target="_blank">
-                  The Blue Line Profile
-                </a>
-                <a href={`http://www.dailycamera.com/${candidate.dailyCameraProfile}`} target="_blank">
-                  Daily Camera Profile
-                </a>
-                {!candidate.boulderChamberQA ? null :
-                  <a href={candidate.boulderChamberQA} target="_blank">
-                    Boulder Chamber Q&A
+                <h5>Profiles:</h5>
+                {shuffleEachDay([
+                  <a key="blue" href={candidate.blueLineProfile} target="_blank">
+                    The Blue Line
+                  </a>,
+                  <a key="camera" href={`http://www.dailycamera.com/${candidate.dailyCameraProfile}`} target="_blank">
+                    Daily Camera
                   </a>
-                }
+                ])}
               </div>
             </div>
             <div className="col-md-4 mb-3">
@@ -71,6 +69,20 @@ const Candidate = (props) => {
                 </div>
               )}
             </div>
+          </div>
+
+          <div className="candidate-links">
+            <h5>Surveys:</h5>
+            {!candidate.boulderChamberQA ? null :
+              <a href={candidate.boulderChamberQA} target="_blank">
+                Boulder Chamber Q&A
+              </a>
+            }
+            {shuffleEachDay(candidate.surveys || []).map(s =>
+              <a key={s.id} href={s.url} target="_blank">
+                {s.name}
+              </a>
+            )}
           </div>
         </div>
         <div className="col-sm-4 col-md-3 order-sm-1">

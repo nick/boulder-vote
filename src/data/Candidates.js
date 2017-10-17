@@ -19,6 +19,12 @@ const Candidates = [
       { id: 'municipalization', answer: 'dont-support' },
       { id: 'affordable-housing', answer: 'against-raising-linkage-fee' },
       { id: 'land-use', answer: '3-body' }
+    ],
+    surveys: [
+      { id: 'plan-boulder', name: 'PLAN Boulder County', url: 'https://docs.wixstatic.com/ugd/e5cd24_3fc34c050717462bb157ef9056ec82b6.pdf' },
+      { id: 'bahra', name: 'BAHRA (Boulder Area Housing Rental Association)', url: 'https://docs.wixstatic.com/ugd/e5cd24_a4cbd6ab15844832a7c350e9fa879468.pdf' },
+      { id: 'sierra-club', name: 'Sierra Club', url: 'https://docs.wixstatic.com/ugd/e5cd24_1a81a7d0f4ca48b7b4e7cd4a45abeac8.pdf' },
+      { id: 'downtown-partnership', name: 'Downtown Boulder Partnership', url: 'https://docs.wixstatic.com/ugd/e5cd24_a528165bfc294714bd9ac2803dadd775.pdf' }
     ]
   },
   {
@@ -42,6 +48,11 @@ const Candidates = [
       { id: 'municipalization', answer: 'dont-support' },
       { id: 'affordable-housing', answer: 'against-raising-linkage-fee' },
       { id: 'land-use', answer: '3-body' }
+    ],
+    surveys: [
+      { id: 'plan-boulder', name: 'PLAN Boulder County', url: 'https://docs.wixstatic.com/ugd/2c6a4f_3aee573437934659b8c9de9dd6788e75.pdf' },
+      { id: 'sierra-club', name: 'Sierra Club', url: 'https://docs.wixstatic.com/ugd/2c6a4f_572046473d024e0cb367c2b2a627c434.pdf' },
+      { id: 'open-boulder', name: 'Open Boulder', url: 'https://docs.wixstatic.com/ugd/2c6a4f_7858b0edfd204611b96668dba74282a0.pdf' }
     ]
   },
   {
@@ -66,6 +77,9 @@ const Candidates = [
       { id: 'municipalization', answer: 'support' },
       { id: 'affordable-housing', answer: 'against-raising-linkage-fee' },
       { id: 'land-use', answer: '3-body' }
+    ],
+    surveys: [
+      { id: 'open-boulder', name: 'Open Boulder', url: 'http://openboulder.org/wp-content/uploads/2017/09/Grano.pdf' }
     ]
   },
   {
@@ -89,6 +103,9 @@ const Candidates = [
       { id: 'municipalization', answer: 'dont-support' },
       { id: 'affordable-housing', answer: 'against-raising-linkage-fee' },
       { id: 'land-use', answer: '4-body' }
+    ],
+    surveys: [
+      { id: 'open-boulder', name: 'Open Boulder', url: 'http://openboulder.org/wp-content/uploads/2017/09/Rigler.pdf' }
     ]
   },
   {
@@ -112,6 +129,10 @@ const Candidates = [
       { id: 'municipalization', answer: 'dont-support' },
       { id: 'affordable-housing', answer: 'against-raising-linkage-fee' },
       { id: 'land-use', answer: '3-body' }
+    ],
+    surveys: [
+      { id: 'sierra-club', name: 'Sierra Club', url: 'https://docs.google.com/document/d/18PP1bP38Usp0YVxaaZHmix-3BoYLoC_w8bolzVWqQLM/edit' },
+      { id: 'open-boulder', name: 'Open Boulder', url: 'http://openboulder.org/wp-content/uploads/2017/09/Budd.pdf' }
     ]
   },
   {
@@ -182,6 +203,12 @@ const Candidates = [
       { id: 'municipalization', answer: 'support' },
       { id: 'affordable-housing', answer: 'for-raising-linkage-fee' },
       { id: 'land-use', answer: '4-body' }
+    ],
+    surveys: [
+      { id: 'plan-boulder', name: 'PLAN Boulder County', url: 'https://www.carlisleforcouncil.com/wp-content/uploads/2017/09/Cindy-Carlisle-2017-PLAN-Boulder-Questionnaire-9-8-17.pdf' },
+      { id: 'sierra-club', name: 'Sierra Club', url: 'https://www.carlisleforcouncil.com/wp-content/uploads/2017/09/SIERRA-CLUB-Questionnaire-from-Cindy-Carlisle-8-23-17-extra.pdf' },
+      { id: 'open-boulder', name: 'Open Boulder', url: 'https://www.carlisleforcouncil.com/wp-content/uploads/2017/09/Carlisle-OPEN-Boulder-Questionnaire-9-5-17.pdf' },
+      { id: 'bahra', name: 'BAHRA (Boulder Area Housing Rental Association)', url: 'https://www.carlisleforcouncil.com/wp-content/uploads/2017/09/Cindy-Carlisles-Responses-Boulder-Area-Rental-Housing-Association-Candidate-Questions.pdf' }
     ]
   },
   {

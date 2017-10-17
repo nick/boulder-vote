@@ -57,6 +57,14 @@ const CandidatesWrapper = props => {
           </li>
           <li>
             <a
+              href="https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml"
+              target="_blank" rel="noopener noreferrer"
+            >
+              Check Registration
+            </a>
+          </li>
+          <li>
+            <a
               href="https://www.bouldercounty.org/elections/information/voting-locations/"
               target="_blank" rel="noopener noreferrer"
             >

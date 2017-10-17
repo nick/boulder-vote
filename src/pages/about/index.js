@@ -11,12 +11,16 @@ const About = () => {
           <h3 className="mt-3">About</h3>
           <p>
             I created BoulderVote.com to help voters in Boulder get to know the
-            candidates and issues for Boulder City Council.
+            candidates and issues for Boulder City Council. It aims to be as
+            unbiased as possible. For example, every day the order of candidates
+            and endorsement groups is randomized.
           </p>
           <p>
-            If you have ideas on how to make the site better, please post in
-            the comments below, or tweet me <a href="https://twitter.com/nick_p">@nick_p</a>. If you&rsquo;re a
-            programmer, you can help also dive in at <a href="https://github.com/nick/boulder-vote">GitHub</a> - the site is completely open source.
+            If you have ideas on how to improve the site, please post in the
+            comments below, or tweet me <a href="https://twitter.com/nick_p">@nick_p</a>.
+            If you&rsquo;re a programmer, you can help also dive in
+            at <a href="https://github.com/nick/boulder-vote">GitHub</a> -
+            the site is completely open source.
           </p>
 
           <ReactDisqusComments
