@@ -1,11 +1,23 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router'
 
+var moment = require('moment');
+var seedrandom = require('seedrandom');
+var shuffle = require('shuffle-array');
+
 class CandidateProfiles extends Component {
     render() {
+        var today = moment().format('YYYY-MM-DD');
+        var shuffleOptions = {
+            'copy': true,
+            'rng': seedrandom(today)
+        };
+        var shuffledCandidates = shuffle(
+            this.props.candidates,
+            shuffleOptions);
         return (
           <div className="row">
-            {this.props.candidates.map(c =>
+            {shuffledCandidates.map(c =>
               <div key={c.id} className="col-md-6 col-lg-4 col-xl-3">
                 <div className="candidate" onClick={() =>
                   this.props.history.push(`/candidate/${c.id}`)
