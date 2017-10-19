@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 const SideBarLink = (props) => {
-    var active = props.location.pathname === props.href;
+    var active = props.location.pathname.indexOf(props.href) >= 0;
     return (
       <li className={`side-link${active ? ' active' : ''}`}>
         <span className="c">&#10095;</span>

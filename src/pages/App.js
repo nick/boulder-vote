@@ -4,6 +4,13 @@ import { Helmet } from 'react-helmet';
 
 import daysToGo from '../lib/daysToGo';
 
+import Surveys from './surveys/Surveys';
+import Survey from './surveys/Survey';
+import SurveyQuestions from './surveys/Questions';
+
+
+import BallotIssues from './ballot-issues/AllIssues';
+import BallotIssue from './ballot-issues/Issue';
 import Candidates from './candidates';
 import Candidate from './candidates/Candidate';
 import About from './about';
@@ -14,11 +21,11 @@ class App extends Component {
         this.state = {}
     }
 
-    componentDidUpdate(prevProps) {
-      if (this.props.location !== prevProps.location) {
-        window.scrollTo(0, 0)
-      }
-    }
+    // componentDidUpdate(prevProps) {
+    //   if (this.props.location !== prevProps.location) {
+    //     window.scrollTo(0, 0)
+    //   }
+    // }
 
     render() {
         return (
@@ -41,10 +48,10 @@ class App extends Component {
                   <span className="navbar-toggler-icon" />
                 </button>
                 <div className={`navbar-collapse collapse${this.state.toggled ? ' show' : ''}`}>
-                  <span className="navbar-text mr-auto d-none d-sm-block">
+                  <span className="navbar-text d-none d-md-block">
                     {`${daysToGo()} days until election!`}
                   </span>
-                  <ul className="navbar-nav">
+                  <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
                       <NavLink
                         className="nav-link"
@@ -52,6 +59,20 @@ class App extends Component {
                         to="/"
                         onClick={() => this.setState({ toggled: false })}
                       >Candidates</NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink
+                        className="nav-link"
+                        to="/surveys"
+                        onClick={() => this.setState({ toggled: false })}
+                      >Surveys</NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink
+                        className="nav-link"
+                        to="/ballot-issues"
+                        onClick={() => this.setState({ toggled: false })}
+                      >Issues</NavLink>
                     </li>
                     <li className="nav-item">
                       <NavLink
@@ -69,6 +90,12 @@ class App extends Component {
               <Switch>
                 <Route path="/about" component={About} />
                 <Route path="/candidate/:id" component={Candidate} />
+                <Route path="/ballot-issues/:id" component={BallotIssue} />
+                <Route path="/ballot-issues" component={BallotIssues} />
+                <Route path="/surveys/:survey/:question/:candidate" component={Survey} />
+                <Route path="/surveys/:survey/:question" component={Survey} />
+                <Route path="/surveys/:survey" component={SurveyQuestions} />
+                <Route path="/surveys" component={Surveys} />
                 <Route component={Candidates} />
               </Switch>
               <div className="footer">

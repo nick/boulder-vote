@@ -2,6 +2,8 @@ const Candidates = [
   {
     id: 'mark-mcintyre',
     name: 'Mark McIntyre',
+    firstName: 'Mark',
+    lastName: 'McIntyre',
     website: 'http://markforcouncil.com',
     facebook: 'MarkMcIntyreforCouncil',
     twitter: '',
@@ -30,6 +32,8 @@ const Candidates = [
   {
     id: 'jan-burton',
     name: 'Jan Burton',
+    firstName: 'Jan',
+    lastName: 'Burton',
     website: 'http://janforboulder.com',
     facebook: 'janforboulder',
     twitter: 'janburtonco',
@@ -58,6 +62,8 @@ const Candidates = [
   {
     id: 'jill-grano',
     name: 'Jill Grano',
+    firstName: 'Jill',
+    lastName: 'Grano',
     website: 'http://jillforcitycouncil.com',
     facebook: 'jill.grano',
     twitter: 'jillgrano',
@@ -85,6 +91,8 @@ const Candidates = [
   {
     id: 'bill-rigler',
     name: 'Bill Rigler',
+    firstName: 'Bill',
+    lastName: 'Rigler',
     website: 'http://billforboulder.com',
     facebook: 'BillforBoulder',
     twitter: 'wjrigler',
@@ -111,6 +119,8 @@ const Candidates = [
   {
     id: 'eric-budd',
     name: 'Eric Budd',
+    firstName: 'Eric',
+    lastName: 'Budd',
     website: 'http://electericbudd.org',
     facebook: 'electEricBudd',
     twitter: 'ericmbudd',
@@ -138,6 +148,8 @@ const Candidates = [
   {
     id: 'mary-young',
     name: 'Mary Young',
+    firstName: 'Mary',
+    lastName: 'Young',
     website: 'http://youngforcouncil.org',
     facebook: 'MaryYoungForCouncil',
     twitter: 'marydoloyoung',
@@ -163,6 +175,8 @@ const Candidates = [
   {
     id: 'sam-weaver',
     name: 'Sam Weaver',
+    firstName: 'Sam',
+    lastName: 'Weaver',
     website: 'http://sam4council.org',
     facebook: 'SamWeaverForCouncil',
     twitter: 'sampweaver',
@@ -186,6 +200,8 @@ const Candidates = [
   {
     id: 'cindy-carlisle',
     name: 'Cindy Carlisle',
+    firstName: 'Cindy',
+    lastName: 'Carlisle',
     website: 'http://carlisleforcouncil.com',
     facebook: 'carlisleforbouldercouncil',
     twitter: 'cindy4council',
@@ -214,6 +230,8 @@ const Candidates = [
   {
     id: 'john-gerstle',
     name: 'John Gerstle',
+    firstName: 'John',
+    lastName: 'Gerstle',
     website: 'http://johngerstleforboulder.com',
     facebook: 'johngerstle2017',
     twitter: '',
@@ -237,6 +255,8 @@ const Candidates = [
   {
     id: 'mirabai-nagle',
     name: 'Mirabai Nagle',
+    firstName: 'Mirabai',
+    lastName: 'Nagle',
     website: 'http://nagleforcouncil.org',
     facebook: 'nagleforcouncil',
     twitter: 'nagle4council',
@@ -260,6 +280,8 @@ const Candidates = [
   {
     id: 'matt-benjamin',
     name: 'Matt Benjamin',
+    firstName: 'Matt',
+    lastName: 'Benjamin',
     website: 'http://mattbenjaminfuturefirst.com',
     facebook: 'MattBenjaminFuturefirst',
     twitter: 'MBforBoulder',
@@ -282,6 +304,8 @@ const Candidates = [
   {
     id: 'adam-swetlik',
     name: 'Adam Swetlik',
+    firstName: 'Adam',
+    lastName: 'Swetlik',
     website: 'http://adamswetlikforboulder.com',
     facebook: 'adamswetlikforboulder',
     twitter: 'AdamSwetlik',
@@ -305,6 +329,8 @@ const Candidates = [
   {
     id: 'ed-byrne',
     name: 'Ed Byrne',
+    firstName: 'Ed',
+    lastName: 'Byrne',
     website: 'http://byrneforcouncil.com',
     facebook: '',
     twitter: 'edbyrneboulder',
@@ -328,6 +354,8 @@ const Candidates = [
   {
     id: 'camilo-casas',
     name: 'Camilo Casas',
+    firstName: 'Camilo',
+    lastName: 'Casas',
     website: 'http://boulder.parti.vote',
     facebook: '',
     twitter: 'camilothinks',

@@ -1,12 +1,12 @@
 import React from 'react'
-import { Redirect } from 'react-router';
+import { Redirect } from 'react-router'
 import { Helmet } from 'react-helmet'
 
 import shuffleEachDay from '../../lib/shuffleEachDay'
-import Candidates from '../../data/Candidates';
-import Groups from '../../data/Groups';
+import Candidates from '../../data/Candidates'
+import Groups from '../../data/Groups'
 
-import CandidateProfiles from '../../components/CandidateProfiles';
+import SmallCandidateProfiles from '../../components/SmallCandidateProfiles'
 
 const Endorsements = (props) => {
     var endorsementId = props.match.params.group,
@@ -30,7 +30,7 @@ const Endorsements = (props) => {
             </div>
           }
         </div>
-        <CandidateProfiles candidates={shuffleEachDay(candidates)}/>
+        <SmallCandidateProfiles candidates={shuffleEachDay(candidates)}/>
       </div>
     )
 }

@@ -6,7 +6,7 @@ import shuffleEachDay from '../../lib/shuffleEachDay';
 import Candidates from '../../data/Candidates';
 import IssueData from '../../data/Issues';
 
-import CandidateProfiles from '../../components/CandidateProfiles';
+import SmallCandidateProfiles from '../../components/SmallCandidateProfiles';
 
 function findCandidates(issue, answer) {
     return Candidates.filter(c => {
@@ -38,7 +38,7 @@ const Issues = (props) => {
           return (
             <div key={answer.id}>
               <div className="mb-2"><b>{answer.description}:</b></div>
-              <CandidateProfiles candidates={issueCandidates}/>
+              <SmallCandidateProfiles candidates={issueCandidates}/>
             </div>
           )
         })}

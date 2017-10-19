@@ -4,15 +4,35 @@ import { Helmet } from 'react-helmet'
 
 import shuffleEachDay from '../../lib/shuffleEachDay'
 import Candidates from '../../data/Candidates';
+import SurveyData from '../../data/Surveys';
 import Groups from '../../data/Groups';
 
 import SideBarLink from '../../components/SideBarLink';
+
+function candidateAnswers(candidateId) {
+    var answers = [];
+    SurveyData.forEach(s => {
+        s.questions.forEach(q => {
+            answers = [
+                ...answers,
+                ...q.answers.filter(a => a.id === candidateId).map(a =>
+                    Object.assign({}, a, {
+                        survey: s,
+                        question: q
+                    })
+                )
+            ]
+        })
+    })
+    return answers;
+}
 
 const Candidate = (props) => {
     var candidate = Candidates.find(c => c.id === props.match.params.id);
     var endorsements = candidate.endorsements
         .map((e) => Groups.find((g) => g.id === e))
         .filter(g => g);
+    var answers = candidateAnswers(candidate.id);
 
     return (
       <div className="row">
@@ -30,7 +50,7 @@ const Candidate = (props) => {
           </div>
 
           <div className="mt-3 row">
-            <div className="col-md-8 mb-3">
+            <div className="col-md-7 mb-3">
               <div>
                 <a href={candidate.website} target="_blank">{candidate.website}</a>
                 {!candidate.facebook ? null :
@@ -49,7 +69,46 @@ const Candidate = (props) => {
                 }
               </div>
               <div>{`${candidate.yearsInBoulder} years in Boulder`}</div>
-              <div className="candidate-links mt-3">
+              {!answers.length ? null :
+                <div className="candidate-links mt-3">
+                  <h5>{`${candidate.firstName}'s Survey Answers:`}</h5>
+                  {answers.map((a, idx) =>
+                    <Link key={idx} to={`/surveys/${a.survey.id}/${a.question.id}/${candidate.id}`}>
+                      {a.question.questionShort}
+                    </Link>
+                  )}
+                </div>
+              }
+            </div>
+            <div className="col-md-5 mb-3">
+              {!endorsements.length ? null :
+                <div className="candidate-links mb-3">
+                  <h5>Endorsed by:</h5>
+                  {shuffleEachDay(endorsements).map(g =>
+                    <div key={g.id}>
+                      <Link to={`/endorsement/${g.id}`}>{g.name}</Link>
+                    </div>
+                  )}
+                </div>
+              }
+
+              {!candidate.boulderChamberQA && !(candidate.surveys || []).length ? null :
+                <div className="candidate-links mb-3">
+                  <h5>Surveys:</h5>
+                  {!candidate.boulderChamberQA ? null :
+                    <a href={candidate.boulderChamberQA} target="_blank">
+                      Boulder Chamber Q&A
+                    </a>
+                  }
+                  {shuffleEachDay(candidate.surveys || []).map(s =>
+                    <a key={s.id} href={s.url} target="_blank">
+                      {s.name}
+                    </a>
+                  )}
+                </div>
+              }
+
+              <div className="candidate-links mb-3">
                 <h5>Profiles:</h5>
                 {shuffleEachDay([
                   <a key="blue" href={candidate.blueLineProfile} target="_blank">
@@ -61,28 +120,6 @@ const Candidate = (props) => {
                 ])}
               </div>
             </div>
-            <div className="col-md-4 mb-3">
-              <h5>Endorsed by:</h5>
-              {shuffleEachDay(endorsements).map(g =>
-                <div key={g.id}>
-                  <Link to={`/endorsement/${g.id}`}>{g.name}</Link>
-                </div>
-              )}
-            </div>
-          </div>
-
-          <div className="candidate-links">
-            <h5>Surveys:</h5>
-            {!candidate.boulderChamberQA ? null :
-              <a href={candidate.boulderChamberQA} target="_blank">
-                Boulder Chamber Q&A
-              </a>
-            }
-            {shuffleEachDay(candidate.surveys || []).map(s =>
-              <a key={s.id} href={s.url} target="_blank">
-                {s.name}
-              </a>
-            )}
           </div>
         </div>
         <div className="col-sm-4 col-md-3 order-sm-1">

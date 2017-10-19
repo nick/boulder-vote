@@ -83,6 +83,117 @@
   margin-bottom: 0.5rem;
 }
 
+.mini-candidates-more-wrap {
+  position: relative;
+}
+.mini-candidates-overflow {
+  position: relative;
+  overflow: auto;
+}
+.mini-candidates-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mini-candidates-overflow .mini-candidates-wrap {
+  flex-wrap: hidden;
+}
+
+.mini-candidates-more-wrap .more a {
+   background: #fff;
+   margin-right: 2rem;
+}
+.mini-candidates-more-wrap .more a:hover {
+   background: #727b84;
+}
+.mini-candidates-more-wrap .more {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 110px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 40%, rgba(255,255,255,1) 100%)
+}
+.mini-candidate {
+  margin: 0 0.5rem 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mini-candidate .candidate-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  margin-bottom: 0.25rem;
+  margin: 5px
+}
+.mini-candidate:hover .candidate-img .c {
+}
+.mini-candidate h5 {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #666;
+}
+.mini-candidate.active .candidate-img .c {
+  border: 5px solid #007fff;
+  width: 78px;
+  height: 78px;
+  border-radius: 50px;
+  margin: -5px;
+}
+.mini-candidate.active h5 {
+  font-weight: bold;
+  color: #333;
+}
+
+.candidate-names {
+  display: flex;
+  flex-wrap: wrap;
+}
+.candidate-name {
+  text-align: center;
+  line-height: 16px;
+  font-size: 14px;
+  margin: 0 0.5rem 0.75rem 0.5rem;
+}
+.candidate-name.active {
+  font-weight: bold;
+}
+.candidate-name.disabled {
+  color: #aaa;
+}
+
+
+
+
+.candidate-profile {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.candidate-profile .candidate-img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50px;
+  margin-bottom: 0.25rem;
+}
+.candidate-profile h5 {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #666;
+}
+
+
 .footer {
   margin: 1rem 0;
   padding-top: 1rem;
@@ -93,4 +204,8 @@
 .footer span {
   color: #aaa;
   margin: 0 1rem;
+}
+
+.survey-list a {
+  color: #333
 }
