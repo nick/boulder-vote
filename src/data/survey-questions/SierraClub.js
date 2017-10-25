@@ -40,7 +40,12 @@ Sierra club for the first time when I was 13 and have been a member since 1977, 
       },
       {
           "id": "eric-budd",
-          "answer": ``
+          "answer": `Workplace bike-to-work coordinator
+
+Promoting bicycling in Boulder by advocating for safer bike routes and volunteering with Community Cycles’ Advocacy Committee to get more people on bicycles
+
+Worked to pass City of Boulder legislation for cooperative housing, which allows housing options designed to reduce energy, transportation, water, and food waste
+`
       },
       {
           "id": "adam-swetlik",
@@ -86,7 +91,15 @@ Expert testimony in judicial and administrative trials resulting in limits on wa
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `In the early '90s, my husband founded the Boulder Mountain Bike Alliance of which I was a member. For 5 years I was very involved with the organization. We organized and worked on many trail projects in the city, the county and on national forest and BLA land. I trained as a trail crew leader and led many of the aforementioned trail projects. In doing so, I learned much about how trails and trail design interplays with impacts of erosion from rain, snow and user behavior.
+
+In the mid-2000's, I became involved in the carsharing movement. I was appointed to the board of eGo CarShare which I served on for 3 years. During that time, I worked with the organization's executive director to apply for its first Congestion Mitigation and Air Quality grant. eGo was awarded $190,000 which set the stage for the organization's growth from purely a small used car operation to one that now competes in the metro area with the big national for profit companies that have entered the arena.
+
+In 2009, I joined the staff of Growing Gardens working on design and build of community gardens. After my employment I briefly served on the board. Through this experience I honed my personal gardening skills which have given me an appreciation for how soil and weather affects, on a micro basis, my ability to grow healthy edible plants. On a macro level, it has enabled me to notice, year to year, the variation in weather (and by extension, climate) and how it is affecting our ability as human beings to coax life sustaining food out of the earth.
+
+I left the engineering profession about a decade ago because I became increasingly concerned about my participation in perpetuating the consumerist society that fuels our economy. Much of what we do as humans is simply not sustainable.
+
+I believe that we need to change the language around climate change from “saving the planet” to “saving ourselves.” This anthropocene era that we are in follows 5 other extinctions of life on this planet. Yet, the planet has survived, will we?`
       },
       {
           "id": "sam-weaver",
@@ -129,7 +142,7 @@ B) Transportation – Work with large employers to bring in commuters from L tow
       },
       {
           "id": "eric-budd",
-          "answer": ``
+          "answer": `Push forward to implement the comprehensive solar strategy for Boulder. As the city continues its path towards a municipal electric utility, we need to work to develop a plan for the city to reach its goal of 50 megawatts of local power generation by 2020. Reduce emissions, improve air quality from transportation and single-occupancy vehicles by providing a city-wide EcoPass for residents and employees in Boulder. The 2014 Boulder EcoPass Feasibility Study projected a 41% increase in ridership by providing EcoPasses for employees and residents in the city.`
       },
       {
           "id": "adam-swetlik",
@@ -172,7 +185,11 @@ Ensure that Boulder continues to move ahead towards its objectives in renewable 
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Smart Regs compliance will go into effect in 2019. These regulations accomplish two things: tenant comfort and movement toward our Climate Commitment. Any non-compliant rental will not be able to renew their rental license until compliant. I will work with staff to make sure that whatever unintended consequences arise are addressed quickly.
+
+Boulder County Recycling Facility (BCRC) – Boulder's commercial recycling ordinance will increase the amount of material that goes through the BCRC. The BCRC will need multiple retrofits and changes in operations if it is to accommodate increased throughput associated with expanded commercial recycling. One of the key challenges is that the BCRC site physically constrains the ability to expand the building. I will work with city and county staff to find an acceptable solution to this challenge.
+
+Finally, I believe very strongly that the best way to inspire behavior change is to model the behavior you would like to see. I work very hard at walking my talk and I will continue to lead by example on all fronts, but especially environmentally.`
       },
       {
           "id": "sam-weaver",
@@ -220,7 +237,7 @@ supplier. `
       },
       {
           "id": "eric-budd",
-          "answer": ``
+          "answer": `Please see https://www.electericbudd.org/muni-statement`
       },
       {
           "id": "adam-swetlik",
@@ -261,7 +278,7 @@ Outcome I’d support:
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `The municipalization project is everything in our ability to achieve Boulder's Climate Commitment (100% clean energy by 2030, 80% emissions reduction by 2050.) Not only that, it proves whether any municipality, in practicality, really does have the codified right to extricate itself from a regulated monopoly. Boulder's effort, whichever way the ruling goes and whatever the outcome of the proposed ballot initiatives, will determine which way the whole state goes. If we cannot municipalize, not only does the effort move to change things at the state level, but gains momentum through support of all the other municipalities within the state that have been carefully watching the outcome of Boulder's effort. I would support municipalizing if the PUC rules in our favor. If not, I would support a strong effort at the state level.`
       },
       {
           "id": "sam-weaver",
@@ -297,7 +314,7 @@ renewables would be four times better than the equivalent coal generation, a hug
       },
       {
           "id": "eric-budd",
-          "answer": ``
+          "answer": `While there’s little risk of fracking impacts within the city of Boulder, we can be better environmental stewards by reducing our demand for natural gas, and thus demand for fracking elsewhere and minimizing fugitive methane emissions. Greater use of wind, solar, efficiency, and dynamic demand response strategies should be prioritized over any new natural gas infrastructure. As we move away from coal and toward a renewable dominated system, natural gas may have a limited but important role in providing flexible generation until electricity storage becomes scalable and cost-effective.`
       },
       {
           "id": "adam-swetlik",
@@ -333,7 +350,11 @@ o	It endangers communities and even the oil and gas workers’ lives.
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `The term “transition fuel” tacitly implies that it is inherently more renewable than oil. It is not. Natural gas is produced with many externalities (fracking, leaks) that hurt the environment and, as we are seeing with the recent explosions, put neighborhoods and its residents at dangerous risk. Furthermore, natural gas is mostly methane, a greenhouse gas that is 25 times more impactful in its greenhouse effect than carbon dioxide.
+
+Which is another reason to municipalize. The transition to solar could occur more quickly because our municipal utility could move more quickly to sever the ties to coal and natural gas than a regulated monopoly.
+
+Full disclosure: We currently have a natural gas on-demand hot water heater. Twenty years ago, it seemed like a good idea at the time.`
       },
       {
           "id": "sam-weaver",
@@ -385,7 +406,7 @@ d. Getting people to trail heads without cars.`
       },
       {
           "id": "eric-budd",
-          "answer": ``
+          "answer": `The master plan needs to give clarity to our city’s open space charter for future open space needs and direction. We’ve largely bought open space that is available and need to consider how to direct OSMP to better manage its resources, help keep wild areas wild, and plan to address the demand imbalance for trail/recreational use which will continue to outpace our current land used for those purposes. Other issues that need to be addressed relate to methods to determine how much recreation should be permitted and how we can manage regional demand for the city’s open space system.`
       },
       {
           "id": "adam-swetlik",
@@ -421,7 +442,13 @@ o	provision for all charter uses, such as agriculture.
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `To answer both of your questions I will zoom in on what I think the key issue will be for the Master Plan process. Section 176 of the charter enumerates the purposes of Open Space. The third purpose is: “(c) Preservation of land for passive recreational use, such as hiking, photography or nature studies, and, if specifically designated, bicycling, horseback riding, or fishing;” I predict that this purpose will be the one that gathers most of the public and master planning process attention.
+
+The questions this section raises for me are “How much recreational use?” “At what costs?” “Who pays?” Good stewardship will look to answer these questions. Costs should not be assessed only monetarily but also in terms of eco-systems services and impacts to flora and fauna.
+
+We have created an asset in our city that both nurtures us and plagues us. Chautauqua currently receives more visitors than Rocky Mountain National Park, with the number of visitors at Mt. Sanitas close behind. This is good for our economy, but bad for the land and the flora and fauna which it nurtures. Add to the questions above the the following factors: climate change and fire risk, rise in homeless transients choosing to camp there, diminishing funding for Open Space and you have a wicked problem in formulating a broadly acceptable stewardship plan.
+
+The community as a whole (including all visitors) will ultimately have to make sacrifices if we are to be truly good stewards of the land.`
       },
       {
           "id": "sam-weaver",
@@ -464,7 +491,7 @@ The department must take a leadership role in working with other agencies (Count
       },
       {
           "id": "eric-budd",
-          "answer": ``
+          "answer": `I believe we should embrace John Muir’s wisdom by making sure people can enjoy wild places, fall in love with them as I have, and commit to protecting them. We should build on the success of Boulder’s open space program by making our trails sustainable and by making new purchases strategically. We need to continue to make open space acquisitions to preserve vulnerable land, improve connections between existing open space and through the region, and consider trails on new land to disperse impacts of recreation on our current system which faces increased pressure from population growth in the Front Range.`
       },
       {
           "id": "adam-swetlik",
@@ -499,7 +526,7 @@ o	Also, certain species rely on large, uninterrupted, contiguous areas in order 
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `See #5 above.`
       },
       {
           "id": "sam-weaver",
@@ -551,7 +578,7 @@ Education and enforcement of current laws needs to be increased. We need to buil
       },
       {
           "id": "eric-budd",
-          "answer": ``
+          "answer": `Develop a plan for a city-wide bike network, continuing use of underpasses, and an increased focus on separated bikeways. Boulder’s multi-use paths have been a great benefit, but on-street bike facilities need to be a priority for Boulder to meet its goal of 30% bike mode share by 2035. More on-street bike facilities will reduce the burden on our multi-use path system and improve safety for pedestrians by further separating them from cyclists. We can also help pedestrians by giving more priority and protection at the city’s most dangerous intersections and ensure that redevelopment in Boulder promotes walkable neighborhoods.`
       },
       {
           "id": "adam-swetlik",
@@ -612,7 +639,9 @@ Safer Use:
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Behavior change. I spend a lot of time walking and riding my bicycle as purely forms of transportation (I prefer the term mobility as it is more encompassing and respectful of those who cannot walk or ride a bicycle) and observe the behavior of many on that infrastructure. The city's Toward Vision Zero initiative, which has engineering, education and enforcement components, was accelerated by City Council through a one-time budget line item in 2017.
+
+In my view, the education piece is key. Increasing use of our mobility infrastructure will require all of us to simply become more attentive, respectful and knowledgeable of the rules so that we can accommodate each other on that infrastructure.`
       },
       {
           "id": "sam-weaver",
@@ -658,7 +687,7 @@ employment centers.
       },
       {
           "id": "eric-budd",
-          "answer": ``
+          "answer": `Adopt a city-wide Ecopass for residents and employees to reduce single-occupancy vehicle trips inside Boulder and regionally. Promote a bicycle network that is easy and safe for more people (especially women and families), give incentives for existing property owners to provide more bike parking, and connect current gaps in our city-wide bike system. Invest in cleaner transit vehicles (e.g. electrifying the Hop bus). Work with corporations to reduce their transportation footprint by offering incentives like parking buyouts and incentivize private transit options for larger companies to reduce stress on our roads and local impacts from in-commuting.`
       },
       {
           "id": "adam-swetlik",
@@ -702,7 +731,13 @@ c.	Making hoped-for behaviors easier and cheaper, produces more of those behavio
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `While walking, biking and transit are key (I served on the Policy Advisory Committee for the Community Wide EcoPass and currently serve on the RTD Pass Working Group), we need to be looking ahead to how the quickly approaching disruption of solar powered autonomous vehicles will impact the whole system.
+
+From the RethinkTransportation Report:
+
+“We are on the cusp of one of the fastest, deepest, most consequential disruptions of transportation in history. By 2030, within 10 years of regulatory approval of autonomous vehicles (AVs), 95% of U.S. Passenger miles traveled will be served by on-demand autonomous electric vehicles owned by fleets, not individuals, in a new business model we call “transportas-a-service” (TaaS). The TaaS disruption will have enormous implications across the transportation and oil industries, decimating entire portions of their value chains, causing oil demand and prices to plummet, and destroying trillions of dollars in investor value — but also creating trillions of dollars in new business opportunities, consumer surplus and GDP growth.”
+
+To leverage this impending disruption, Boulder, in collaboration with as many municipalities in the metro area as possible, need to begin exploring policy options that will make the most sense for our area and our transportation infrastructure. This change could potentially have a dramatic effect on GHG reduction(go from a nation of 247 million cars to 44 million) and so we should pursue policies that ensure the best effect possible.`
       },
       {
           "id": "sam-weaver",
@@ -737,7 +772,7 @@ The City Forrester can play a stronger role in encouraging people to either let 
       },
       {
           "id": "eric-budd",
-          "answer": ``
+          "answer": `Set community goals and incentives for businesses to adopt the Bee Safe Boulder resolution. Look for opportunities to promote pollinators and native species with plantings on open space. To help keep wild elements in our urban areas, we may consider incentives in our planning and site review processes that dedicate some open space on a site for native plant species and flowers.`
       },
       {
           "id": "adam-swetlik",
@@ -770,7 +805,11 @@ The City Forrester can play a stronger role in encouraging people to either let 
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `In my answer to the first question, I mentioned the observations that I make in my garden that are symptoms of the bigger picture. In the short period of about 10 years, I have noticed an alarming decrease in pollinators and by extension, food production. Spring tree blossoms used to create an audible buzz that marked the season.
+
+The city has done much on this front with its IPM policies. Also, most flowering plant retailers carry neonic free plants exclusively (the Flower Bin in Longmont does, too!)
+
+Through neighborhood activities we can continue to raise awareness. But the most impactful work would be to change leadership at the state level that will be more open to policies that protect some of the hardest workers that sustain our ability to continue to eat.`
       },
       {
           "id": "sam-weaver",
@@ -818,7 +857,7 @@ cars. This could be the best example of what an almost car-less village could lo
       },
       {
           "id": "eric-budd",
-          "answer": ``
+          "answer": `For the annexation agreement to move forward, the city must use the option that will (per city staff) “minimize impacts to sensitive species from nearby OSMP properties and minimize impacts to sensitive environmental resources.” The option that fits the criteria is Alternative D for berm construction. Additionally, the proposed zoning boundaries must protect the native riparian and herbaceous wetlands located at the southern and south-eastern portions of the property. CU wants a minimally-binding agreement for long-term flexibility in development that is 10-20 years into the future, but needs to align with housing, transportation plan, and environmental goals of the city.`
       },
       {
           "id": "adam-swetlik",
@@ -854,7 +893,9 @@ cars. This could be the best example of what an almost car-less village could lo
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `First of all, the city must be a tough negotiator at the table when drafting the annexation agreement. All of our leverage rests prior to annexation. Now that the Comp Plan has passed, the CU South Guiding Principles will serve as the primary document to steer that agreement. It is a strong document that addresses the concerns of all stakeholders. We should not annex without heeding to those guiding principles.
+
+Much of the 300+ acres of the CU South property lie on the 100 and 500 year flood plains. This should be respected for environmental and flood mitigation reasons. We must protect the wetlands and endangered species. When you look at an aerial view (see below, one is water depth the other water velocity) of the area, it is abundantly clear this is South Boulder Creek's alluvial fan. To the extent we can respect this natural function as outlined in the BVCP, everyone will benefit.`
       },
       {
           "id": "sam-weaver",
