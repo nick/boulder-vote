@@ -12,10 +12,10 @@ import SideBarLink from '../../components/SideBarLink';
 function candidateAnswers(candidateId) {
     var answers = [];
     SurveyData.forEach(s => {
-        s.questions.forEach(q => {
+        s.questions.filter(q => q.question).forEach(q => {
             answers = [
                 ...answers,
-                ...q.answers.filter(a => a.id === candidateId).map(a =>
+                ...q.answers.filter(a => a.id === candidateId && a.answer).map(a =>
                     Object.assign({}, a, {
                         survey: s,
                         question: q
@@ -122,7 +122,7 @@ const Candidate = (props) => {
             </div>
           </div>
         </div>
-        <div className="col-sm-4 col-md-3 order-sm-1">
+        <div className="col-sm-4 col-md-3 col-lg-2 order-sm-1">
           <h5 className="mt-3">Candidates</h5>
           <ul className="list-unstyled">
             {shuffleEachDay(Candidates).map(c =>

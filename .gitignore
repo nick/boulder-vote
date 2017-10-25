@@ -2,3 +2,5 @@ node_modules
 .DS_Store
 public/bundle*.js
 TODO
+public/css
+public/fonts

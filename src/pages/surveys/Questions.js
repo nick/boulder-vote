@@ -21,7 +21,7 @@ const Questions = (props) => {
             <h5 className="mb-3">{survey.name} Survey</h5>
             <div style={{ maxWidth: 660 }}>
               <ol className="mb-2">
-                {survey.questions.map(q =>
+                {survey.questions.filter(q => q.question).map(q =>
                   <li key={q.id} className="mb-3">
                     <Link to={`/surveys/${survey.id}/${q.id}`} onClick={() => window.scrollTo(0, 0)}>
                       {q.question}

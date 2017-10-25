@@ -26,7 +26,7 @@ else {
   process.on('exit', () => webpackDevServer.kill());
 }
 
-const HTML = (helmet, content) => `<!doctype html>
+const HTML = (helmet, content, localAssets) => `<!doctype html>
 <html lang="en" dir="ltr">
   <head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108172731-1"></script>
@@ -35,8 +35,8 @@ const HTML = (helmet, content) => `<!doctype html>
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <meta charset="UTF-8">
     <meta http-equiv="Content-Language" content="en">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="${localAssets ? '' : 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta'}/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="${localAssets ? '' : 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0'}/css/font-awesome.min.css" />
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body><div id="app">${content}</div></body>
@@ -52,15 +52,16 @@ app.get('*', (req, res) => {
     </StaticRouter>
   )
   const helmet = Helmet.renderStatic()
+  const localAssets = process.env.LOCAL_ASSETS ? true : false;
 
   if (context.url) {
     return res.redirect(context.url)
   }
   if (process.env.NODE_ENV === 'production') {
-    res.send(HTML(helmet, content))
+    res.send(HTML(helmet, content, localAssets))
   }
   else {
-    res.send(HTML(helmet, ''));
+    res.send(HTML(helmet, '', localAssets));
   }
 })
 

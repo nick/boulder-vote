@@ -626,11 +626,9 @@ to breaking the homelessness cycle. `
 families with children), and because this situation has a ripple
 effect for the children, impacting their physical and mental
 health and life-long patterns for achievement and employment.
-
 • Housing for low-income residents who pay a very large portion
 of their income for housing and are therefore economically
 stressed and dependent on services (like effa).
-
 • Physical and mental health care for disadvantaged populations
 – because this (in addition to lack of housing) is one of the
 major factors leading to homelessness.`

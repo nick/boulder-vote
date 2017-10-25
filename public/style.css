@@ -1,4 +1,6 @@
-
+a, button {
+  cursor: pointer;
+}
 .social-icon {
   display: inline-block;
   width: 24px;
@@ -25,8 +27,14 @@
   background: #7abfdf;
 }
 
+.side-link {
+  padding-left: 0.75rem;
+  line-height: 1rem;
+  margin-bottom: 0.5rem;
+}
 .side-link .c {
   color: #ccc;
+  margin-left: -0.75rem;
   margin-right: 0.25rem;
   visibility: hidden;
 }
@@ -156,6 +164,9 @@
   display: flex;
   flex-wrap: wrap;
 }
+.candidate-names a {
+  color: #333
+}
 .candidate-name {
   text-align: center;
   line-height: 16px;
@@ -204,8 +215,4 @@
 .footer span {
   color: #aaa;
   margin: 0 1rem;
-}
-
-.survey-list a {
-  color: #333
 }

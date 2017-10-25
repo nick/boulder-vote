@@ -3,23 +3,13 @@ import { Link, Redirect } from 'react-router-dom';
 import { Helmet } from 'react-helmet'
 
 import shuffleEachDay from '../../lib/shuffleEachDay'
+import styleHtml from '../../lib/styleHtml'
 import SurveyData from '../../data/Surveys'
 import CandidateData from '../../data/Candidates'
 
 import SideBarLink from '../../components/SideBarLink'
 import ProfilePic from '../../components/ProfilePic'
-// import MiniCandidateProfiles from '../../components/MiniCandidateProfiles';
 import CandidateNames from '../../components/CandidateNames';
-
-function styleHtml(html) {
-  return html.split("\n\n").map((h, idx) =>
-    <div
-      key={idx}
-      className="mb-3"
-      dangerouslySetInnerHTML={{ __html: h.replace(/•/g, "<br/>•").replace(/\n- /g, "<br/>- ") }}
-    />
-  );
-}
 
 const Survey = (props) => {
     var survey = SurveyData.find(c => c.id === props.match.params.survey),
@@ -29,7 +19,8 @@ const Survey = (props) => {
         candidateAnswer,
         candidate,
         candidatesWithAnswerIds,
-        candidatesNoAnswer;
+        candidatesNoAnswer,
+        pageURL = encodeURIComponent(`https://bouldervote.com${props.location.pathname}`);
 
     if (questionId) {
         question = survey.questions.find(q => q.id === questionId);
@@ -81,7 +72,22 @@ const Survey = (props) => {
                   <div style={{ marginLeft: '1.5rem' }}>
                     {(!candidateAnswer || !candidateAnswer.answer)
                       ? <i>{`No response from ${candidate.name}`}</i>
-                      : styleHtml(candidateAnswer.answer)
+                      : (
+                        <div>
+                          {styleHtml(candidateAnswer.answer)}
+                          {!candidate.twitter ? null :
+                            <div className="mt-2">
+                              <a
+                                href={`https://twitter.com/intent/tweet?url=${pageURL}&text=@${candidate.twitter}`}
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  window.open(`https://twitter.com/intent/tweet?url=${pageURL}&text=@${candidate.twitter}`, '_blank', 'width=440,height=250,status=no,menubar=no,titlebar=no')
+                                }}
+                              ><i className="fa fa-twitter mr-1" />{`Tweet @${candidate.twitter} about this issue`}</a>
+                            </div>
+                          }
+                        </div>
+                      )
                     }
                   </div>
                 </div>

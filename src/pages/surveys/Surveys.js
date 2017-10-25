@@ -24,7 +24,7 @@ export default class AllSurveys extends Component {
                       {s.name}
                     </Link>
                     <div style={{ fontSize: 14 }}>
-                      {`${s.numQuestions} questions, ${s.responses} candidates responded`}
+                      {`${s.numQuestions} questions, ${s.responses} candidate responses`}
                     </div>
                   </div>
                 )}

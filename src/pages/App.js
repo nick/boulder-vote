@@ -101,7 +101,8 @@ class App extends Component {
               <div className="footer">
                 &copy; 2017 <a href="https://twitter.com/nick_p">Nick Poulden</a>
                 <span>&bull;</span>
-                Source on <a href="https://github.com/nick/boulder-vote">GitHub</a>
+                <a href="https://twitter.com/BoulderVote"><i className="fa fa-lg fa-twitter mr-2" /></a>
+                <a href="https://github.com/nick/boulder-vote"><i className="fa fa-lg fa-github" /></a>
               </div>
             </div>
           </div>
