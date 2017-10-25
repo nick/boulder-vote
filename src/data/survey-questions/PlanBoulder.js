@@ -55,7 +55,7 @@ Colorado and western-US companies.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Since 1982 on a permanent basis, 35 years.`
       },
       {
           "id": "sam-weaver",
@@ -140,7 +140,7 @@ As a long-term member/user/irrigator/volunteer of Silver Lake Ditch, which irrig
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `I served for almost a full term on the City Planning Board, it was cut short by a few months because of my election to the city council. Prior to that I was a neighborhood activist and served on the Recommendation Group assembled to create guiding principles for the Washington School redevelopment after a successful referendum that I helped lead.`
       },
       {
           "id": "sam-weaver",
@@ -225,7 +225,7 @@ incorporating progressive values and a sense of place into current decisionmakin
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `I'm running because as a long-time resident of Boulder, I’ve seen first-hand the positive changes that make Boulder a great place to live, work, and visit. Many people in Boulder have done well for themselves -- oftentimes a reflection of their ingenuity, courage, sacrifice, and hard work. On the other hand, I’ve also seen working individuals and families squeezed out of Boulder, unable to afford ever- increasing Boulder housing costs. Now more than ever, policies need to be crafted that put community first and people above profit. I've served on council for four years now and I feel like I'm just getting started. I expect to make significant contributions to sub-community/area/neighborhood planning, getting our development review process to a more predictable place (i.e. adding community benefits, etc.) and getting Boulder to walk its talk when it comes to being “welcoming and inclusive.”`
       },
       {
           "id": "sam-weaver",
@@ -286,7 +286,7 @@ incorporating progressive values and a sense of place into current decisionmakin
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Yes.`
       },
       {
           "id": "sam-weaver",
@@ -366,7 +366,7 @@ issue.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `In general yes. Where we got to was a compromise. The change to city decisions and county call-up in Area II procedures, in my view, was mainly due to the controversy at Twin Lakes and the county's desire to serially annex it with a county open space parcel coming first. That desire, however, is still fraught with an issue that has not even come up yet. That issue is a fundamental one to do with good governance, i.e. you should not treat a government request differently from a private request. Government should never give itself special privileges.`
       },
       {
           "id": "sam-weaver",
@@ -459,7 +459,7 @@ Planning Department, and I would support that.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Yes, I favor it. These types of plans could function as vehicles for evolution causing change to occur at a pace that is more in line with a rate acceptable to human nature.`
       },
       {
           "id": "sam-weaver",
@@ -553,7 +553,7 @@ planning.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Yes. We need to change the culture of our decision-making. I also feel strongly that the 9 step process could be very effective in helping us all accomplish that. It will, however, take time and commitment. I am committed to it.`
       },
       {
           "id": "sam-weaver",
@@ -687,7 +687,7 @@ fees/disincentives to driving gas-powered vehicles) and by increasing building e
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Yes, I support the effort. The municipalization project is everything in our ability to achieve Boulder's Climate Commitment (100% clean energy by 2030, 80% emissions reduction by 2050.) Not only that, it proves whether any municipality, in practicality, really does have the constitutional right to extricate itself from a regulated monopoly. Boulder's effort, whichever way the ruling goes and whatever the outcome of the proposed ballot initiatives, will determine which way the whole state goes. If we cannot municipalize, not only does the effort move to change things at the state level, but gains momentum through support of all the other municipalities within the state that have been carefully watching the outcome of Boulder's effort. I would support municipalizing if the PUC rules in our favor. If not, I would support a strong effort at the state level.`
       },
       {
           "id": "sam-weaver",
@@ -806,7 +806,9 @@ I also believe that the City must become much more active in various aspects of 
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Commercial development growth potential outstrips residential development potential per current zoning. More jobs create a greater demand for housing, putting upward pressure on prices. We need to bring this into balance. I would support higher commercial linkage fees and/or commercial growth limits. The percentage IH should be expanded to also include middle income (in process.)
+
+Money from linkage fees could be used for preservation of housing that is already affordable to middle income households (currently mostly rental.) In this way, the city could outright buy or facilitate residents buying their apartment complexes, mobile home parks etc.`
       },
       {
           "id": "sam-weaver",
@@ -925,7 +927,7 @@ affordable housing, using deed-restrictions, and creating land trusts on city-ow
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `See #5 above.`
       },
       {
           "id": "sam-weaver",
@@ -1031,7 +1033,7 @@ we are going to ignore it?`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Yes, I would like to bring it back for a vote based on the motion I made, but had to retract, for $35 sqft. This amount is only 27% of the pre-adjusted supportable amount resulting from the Nexus analysis. We say we want affordable housing, this would put our policy where our mouths are.`
       },
       {
           "id": "sam-weaver",
@@ -1109,7 +1111,7 @@ City of Boulder and the University.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `If CU continues with that projection, housing should be the University's responsibility. About 10 years ago, we rezoned the area around Colorado and Hwy 36 for high density residential. This huge developer windfall has resulted in luxury student housing. As a state institution, they should be responsible for adding affordable student housing. This housing should be built as infill on the main campus and other parcels that are closer to town. Whatever can be built at CU South, it should be reserved for faculty and staff.`
       },
       {
           "id": "sam-weaver",
@@ -1198,7 +1200,7 @@ and depend on.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Yes, I support this. The most obvious area is the area around 55th and Arapaho where there is lots of surface parking.`
       },
       {
           "id": "sam-weaver",
@@ -1320,7 +1322,9 @@ to sustain the OSMP system for future generations.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `This, I predict, will be the key issue for the Master Plan. Section 176 of the charter enumerates the purposes of Open Space. The third purpose is: “(c) Preservation of land for passive recreational use, such as hiking, photography or nature studies, and, if specifically designated, bicycling, horseback riding, or fishing;” This purpose will be the one that gathers most of the public and master planning attention.
+
+The questions it raises for me are “How much recreational use?” “At what costs?” “Who pays?” Good stewardship will look to answer these questions. Costs should not be assessed only monetarily but also in terms of eco-systems services and impacts to flora and fauna. But, to answer your question, I simply don't know what measures should be put into place.`
       },
       {
           "id": "sam-weaver",
@@ -1408,7 +1412,7 @@ not more thoroughly considered.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Make the trail as narrow as possible and restrict use similarly to rules such as are used on the county's Betasso Preserve.`
       },
       {
           "id": "sam-weaver",
@@ -1498,7 +1502,7 @@ developments in wetlands. This property should be moved to Area III. `
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Not annexed and moved back into Area III. I was on the planning board that unanimously recommended against annexation to city council. All of the science and the data along with increased risks of flooding and unusual weather events point towards leaving it in place as the sponge that it is. Additionally, the groundwater impacts are so unknown and unpredictable that, if there were ever a place to apply the precautionary principle, this is it.`
       },
       {
           "id": "sam-weaver",
@@ -1613,7 +1617,7 @@ ride service, once again strengthen our local economy and keep our dollars at ho
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Yes, but what we really need is for RTD to support it. It should be paid for by either a property tax (analysis has been done by the county and it polled well in Boulder) or a head tax.`
       },
       {
           "id": "sam-weaver",
@@ -1708,7 +1712,12 @@ the City should be exploring how it can apply these locally. `
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Yes because...
+From the RethinkTransportation Report:
+
+“We are on the cusp of one of the fastest, deepest, most consequential disruptions of transportation in history. By 2030, within 10 years of regulatory approval of autonomous vehicles (AVs), 95% of U.S. Passenger miles traveled will be served by on-demand autonomous electric vehicles owned by fleets, not individuals, in a new business model we call “transportas-a-service” (TaaS). The TaaS disruption will have enormous implications across the transportation and oil industries, decimating entire portions of their value chains, causing oil demand and prices to plummet, and destroying trillions of dollars in investor value — but also creating trillions of dollars in new business opportunities, consumer surplus and GDP growth.”
+
+To leverage this impending disruption, Boulder, in collaboration with as many municipalities in the metro area as possible, need to begin exploring policy options that will make the most sense for our area and our transportation infrastructure. This change could potentially have a dramatic effect on GHG reductions (go from a nation of 247 million cars to 44 million) and so we should pursue policies that ensure the best effect possible.`
       },
       {
           "id": "sam-weaver",
@@ -1777,7 +1786,7 @@ completion.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Yes. But what we really need is a community-wide EcoPass.`
       },
       {
           "id": "sam-weaver",
