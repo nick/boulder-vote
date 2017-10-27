@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet'
 
 import SideBarLink from '../../components/SideBarLink'
 import SurveyData from '../../data/Surveys'
+import QuestionLinks from './_QuestionLinks';
 
 const Questions = (props) => {
     var survey = SurveyData.find(c => c.id === props.match.params.survey);
@@ -47,7 +48,11 @@ const Questions = (props) => {
                 />
               )}
             </ul>
-
+            <h5 className="mt-3">Topics</h5>
+            <QuestionLinks
+              survey={survey}
+              location={props.location}
+            />
           </div>
         </div>
       </div>
