@@ -23,7 +23,13 @@ peregrine falcons on a closure area south of Boulder. It’s the most rewarding 
       },
       {
           "id": "ed-byrne",
-          "answer": ``
+          "answer": `Represented Sunflower Coalition in opposing Urovan mill tailings disposal site Assisted with negotiation of City purchase of Beech Aircraft property <br/>
+Negotiated new range management plan for Van Vleet ranch, City of Boulder (1986)<br/>
+Selected to represent Colorado Ski Country USA (CSCUSA) on Governor Romer’s Colorado Environment 2000 work group and Citizen’s Advisory Group (1989)<br/>
+Thorne Institute environmental award to CSCUSA (1992)<br/>
+Wildlife Habitat Enhancement Council award to CSCUSA (1993)<br/>
+North Boulder Subcommunity Plan Co-Chair (1994)<br/>
+Coordinated Guide The Ride campaign with local Sierra Club`
       },
       {
           "id": "mark-mcintyre",
@@ -103,7 +109,7 @@ I believe that we need to change the language around climate change from “savi
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `Appointed to the Clean Energy Development Authority in 2007, served on the Board of Directors (BOD) of the Colorado Solar Energy Industries Association 2011 and 2012, clean energy modelling for muni campaign in 2011 with Empower Our Future, debating Xcel and anti-muni representatives in support of muni effort 8 times in 2011 election cycle, served on BOD of Clean Energy Action 2010-2013. Helped develop and get through title-setting a citizens’ petition with CCRI for a state-wide carbon tax in 2008 (not enough signatures gathered). Analysis and education for CU class and other public speaking of impact of fracked methane emissions on climate. While on Planning Board and Council stongly advocated for and supported strict energy codes for new and existing buildings. Worked passionately diligently over 7 years to advance the muni, negotiating with Xcel for best possible offers for settlement (I ultimately supported rejection), successfully supported commercial recycling and composting ordinance, many open space acquisitions, and worked to implement a climate commitment (80% by 2050) and 100% renewables commitment by 2030. Professionally I work to develop energy efficiency and renewable energy technology advancement through Cool Energy (www.coolenergy.com) and Proton Power (www.protonpower.com).`
       }
     ]
   },
@@ -126,7 +132,9 @@ charging rates that incentivize the use of EVs.`
       },
       {
           "id": "ed-byrne",
-          "answer": ``
+          "answer": `Promotion of complete neighborhoods in order to promote primary self-sufficiency that will reduce overall VMT and enhance quality of life in neighborhoods
+
+Development of long-range regional approach to land use planning, transportation strategies, and workforce housing solutions`
       },
       {
           "id": "mark-mcintyre",
@@ -193,7 +201,9 @@ Finally, I believe very strongly that the best way to inspire behavior change is
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `Fracking: Limit the possibility of fracking operations on open space, support strategic acquisition of mineral rights under open space when possible, lobby at the state level for increased local authority to ban or limit fracking activities in Boulder.
+
+Climate and energy: Continue to support the City organization reducing its carbon emissions through Energy Service Contracts, continue muni push, help inform state legislation for a Modern Path to Municipalization, continue to support City involvement in Colorado Cities for Climate Action (Boulder worked hard to found this organization)`
       }
     ]
   },
@@ -225,7 +235,9 @@ supplier. `
       },
       {
           "id": "ed-byrne",
-          "answer": ``
+          "answer": `I support the City’s attempts to municipalize our energy grid, but am concerned that we haven’t won a court case to date, and the eventual cost may well exceed our willingness to pay for stranded assets with a limited life span and rapidly diminishing intrinsic value. When the numbers are known, I will examine them closely to determine whether the cost, and the City’s ability to absorb it, is less than the value of the benefits to be achieved by assuming control of Boulder’s energy future. The City is fully capable of operating the utility, but the court-ordered cost must pencil.
+
+I support whatever moves Boulder closer to a carbon-free energy future for a cost that the bond market will absorb without jeopardizing the City’s credit-worthiness and future finances.`
       },
       {
           "id": "mark-mcintyre",
@@ -282,7 +294,7 @@ Outcome I’d support:
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `Boulder (and other Colorado cities) will never reach their climate commitments with the current energy provider Xcel unless Xcel were to change course radically. In the best possible projections, even if Xcel gets all it aspires to (which may be a bad deal for ratepayers) Xcel may achieve a 55% emissions reduction by 2030. Boulder is committed to a carbon-emissions-free electricity system by 2030. The only way for Boulder to meet its climate and energy goals (which I helped to establish and am personally committed to) is a municipal electric utility. The additional benefits of a muni include local democratic control as well as the ability to test and establish new energy provider business models, which can further advance clean energy goals outside of the Boulder footprint. Supporting the muni is foundational to me, and even if Boulder’s efforts were to fail, I would continue to support state action towards a rational Modern Path to Municipalization.`
       }
     ]
   },
@@ -302,7 +314,7 @@ renewables would be four times better than the equivalent coal generation, a hug
       },
       {
           "id": "ed-byrne",
-          "answer": ``
+          "answer": `I think we are sending 100’s of millions of years of carbon fuel up in smoke, with no back-up plan. We should switch to renewable, sustainable energy sources as rapidly as possible as a precautionary measure. Natural gas is preferable to continued use of coal, but  the methane emissions resulting from us of wasteful technologies and lax regulatory enforcement make it a poor substitute for rapid adoption of renewables.`
       },
       {
           "id": "mark-mcintyre",
@@ -358,7 +370,7 @@ Full disclosure: We currently have a natural gas on-demand hot water heater. Twe
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `To the extent that dispatchable fuel-fired electricity sources are necessary (and electrical and thermal storage may make that requirement obsolete), the best fuel-fired electricity is from methane produced from renewable biomass sources that do not contribute to climate change. Downdraft gasification, pyrolysis, anerobic digestion, and fluidized-bed processing of biomass and organic waste all produce high-quality renewable methane which can be used for electricity production and home heating. There is abundant wood waste and construction and demolition waste which are the feedstocks for non-fossil methane and syngas, and these should be used to displace all forms of fossil carbon combustion, including in electricity generation. State law should be used to support and incentivize the transition to renewable natural gas (bio-gas) and electricity storage, so that any form of fossil gas combustion is no longer allowed. All power must be generated from sources that do not add to the burden of climate change.`
       }
     ]
   },
@@ -390,7 +402,9 @@ with acquisitions, new property integration and physical planning and design;
       },
       {
           "id": "ed-byrne",
-          "answer": ``
+          "answer": `The master plan should have been developed long ago. Stewardship requires management of the resources that will preserve them, and allow reasonable and sustainable public access to them in perpetuity.
+
+Habitat enhancement, carefully managed public access, compatible multi-use strategies, and targeted acquisitions of key links should all be addressed.`
       },
       {
           "id": "mark-mcintyre",
@@ -452,7 +466,7 @@ The community as a whole (including all visitors) will ultimately have to make s
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `It is fitting that in the year of the 50th anniversary of the founding of Boulder’s Open Space program, that a major strategic visioning process should kick off to guide management for the next 50 years. The Master Plan should set forth criteria-based decision-making processes for determining which uses, if any, are appropriate for each type of area of Open Space. The different ecological types of land managed by OSMP are already well-categorized in other documents, and guidelines and criteria for uses in each type should be set forth, without making specific determinations of use within sites. Theories of management for the different area types should be laid out clearly. Management of uses should be spelled out explicitly, and every effort should be made to allow as many uses on trails as possible without causing appreciable degradation of the local ecological and habitat value of the land. Where user conflicts are noted, the plan should be creative in proposing strategies for managing uses, considering approaches such as alternating uses by schedule (temporal separation) and using use restrictions only when levels of use conflict are unacceptable, or when given uses are causing degradation of the habitat values.`
       }
     ]
   },
@@ -477,7 +491,7 @@ comes from and the tie-in to environmentally-friendly agriculture.`
       },
       {
           "id": "ed-byrne",
-          "answer": ``
+          "answer": `They must be carefully balanced to enable public access in controlled and, in some cases, hardened areas specifically designed to handle visits while educating visitors on how to conduct themselves in a manner that will preserve the natural resources for future generations.`
       },
       {
           "id": "mark-mcintyre",
@@ -530,7 +544,8 @@ o	Also, certain species rely on large, uninterrupted, contiguous areas in order 
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `
+This very general question is difficult to answer in a general way except to describe principles to apply in case-by-case determinations. The value of open space has the many aspects laid out in the Charter: preservation or restoration of natural areas; preservation of water resources; preservation of land for passive recreational use; preservation of agricultural uses; utilization of land for shaping City development; utilization of non-urban land for spatial definition of urban areas; utilization of land to prevent encroachment on floodplains; preservation of land for its aesthetic or passive recreational value and contribution to quality of life. The tensions inherent to the discussion of how much use, when and where are inherent in the purposes listed, which include passive recreation as well as preservation. A guiding principle for me is that OSMP habitat which shelters threatened or endangered species (both vegetation and wildlife) should be treated with the utmost care, and that in those areas, preservation values must be addressed first. In areas in which primarily more common species are found, the balance between preservation and use can tilt somewhat more towards user group interests. Regardless of the regulations developed, enforcement should be strong in order to preserve natural values and minimize user conflict.`
       }
     ]
   },
@@ -562,7 +577,7 @@ educational PR to educate about bike laws, pedestrian laws, and evangelize safe 
       },
       {
           "id": "ed-byrne",
-          "answer": ``
+          "answer": `Understand human tendencies and protect public safety while enhancing multi-modal options. Education is paramount. Self-protective behavior must be taught. Courteous sharing of Boulder’s roads, paths and trails must be incentivized through innovative design, and enforced as necessary and appropriate.`
       },
       {
           "id": "mark-mcintyre",
@@ -645,7 +660,8 @@ In my view, the education piece is key. Increasing use of our mobility infrastru
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `
+The first and obvious answer to this question is to preserve and expand the existing greenways network. The greenways and paths have the advantage of fully separating cyclists and pedestrians from motor vehicles, ensuring a high degree of safety for all modes, and enabling more rapid transit by cyclists and peds due to the underpasses that accompany the greenway system. It almost goes without saying that the current sidewalk system needs to be maintained, and expanded to areas that desire it, mostly for the benefit of peds, but in certain areas for bikes as well. Maintaining road-level multi-use paths is the next-best set of solutions for bikes and peds, as some degree of physical separation exists between modes, though curb-cuts and turning autos still present some level of auto interaction with bikes/peds. The next-best set of solutions is street-level bike lanes which have some form of physical separation, as in the existing pilot along Folsom between Valmont and Spruce. Finally, stripe-separated bike lanes along most city streets allows bikes between sidewalks and vehicle lanes, and while this is the least safe of the network solutions, it provides access to all areas of the City. The Safe Streets Boulder program is an example of Boulder’s efforts towards better safety for all modes.`
       }
     ]
   },
@@ -670,7 +686,7 @@ their employees.`
       },
       {
           "id": "ed-byrne",
-          "answer": ``
+          "answer": `Reconfiguration of our single-use, Euclidean, auto-dependent suburban land use development patterns must be accelerated through creative public/private partnerships, and comprehensive regional, community, subcommunity and area plans. Trip patterns must be analyzed to determine how best to optimize a blend of transportation strategies that will effectively support multiple modes of travel, can create capture zones at the edge of town, and will use technology to reduce single occupant vehicle trips while enhancing mobility.`
       },
       {
           "id": "mark-mcintyre",
@@ -741,7 +757,7 @@ To leverage this impending disruption, Boulder, in collaboration with as many mu
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `Vehicle emissions will likely remain a difficult problem for decades to come. One major step towards reduced emissions will be increasing use of electrical transportation modes of all kinds. Autos, scooters, and bicycles are all modes which are being electrified currently, and there are electric versions of all types of modes for sale. For the last year, I have been increasingly commuting by electric bike, putting over 1000 miles on the bike during the first year of ownership. The current County programs for electric vehicle sales (including both autos and bikes) are a good start in incentivizing this transition. City codes have been adopted for new construction to require some charging facilities in new buildings, and the City provides 44 charging stations (and counting) across its parking system. Working with RTD to provide the best possible options to encourage high use of transit remains an important strategy, including subsidizing more bus frequency on heavily-used routes, and continuing to work towards a community-wide EcoPass. Finally (and with the most complexity) land use regulation can be used to reduce the number of vehicle-miles travelled through incentivizing developers to build in areas and manners that allow all modes of travel.`
       }
     ]
   },
@@ -758,7 +774,7 @@ properties, and work with other communities to limit pesticide use. `
       },
       {
           "id": "ed-byrne",
-          "answer": ``
+          "answer": `Through education and carefully targeted enforcement, eliminate the use of neonicotinoids. Alternatives exist and pollinators are critical to sustaining our food supply and promoting overall ecosystem health.`
       },
       {
           "id": "mark-mcintyre",
@@ -813,7 +829,7 @@ Through neighborhood activities we can continue to raise awareness. But the most
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `I was pleased during my first Council term to work with the citizen activists (Bee Safe Boulder) to pass a resolution that declares that the City will not only forego the use of neonicotinoid pesticides on its landscaping, but would also only purchase plantings that were guaranteed not to have embedded neonic elements. Further, the City resolution urged all parties in the City, public and private, to forego using neonic pesticides. Beyond the neonic issue, Boulder employs an Integrated Pest Management approach, which bans the use of most pesticides on City property, with only minimal herbicide application as a last resort. I support maintaining all of these efforts to improve the health of pollinators in Boulder.`
       }
     ]
   },
@@ -839,7 +855,7 @@ fact, I have encouraged CU to be car-free as a campus. `
       },
       {
           "id": "ed-byrne",
-          "answer": ``
+          "answer": `Effective flood mitigation, carefully delimited development potential, creation of neighborhood links, exploration of innovative transportation solutions, including the use of fixed guideway and/or cable systems, to the extent they may outperform vehicular, shuttle and other road-based options.`
       },
       {
           "id": "mark-mcintyre",
@@ -899,7 +915,7 @@ Much of the 300+ acres of the CU South property lie on the 100 and 500 year floo
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `I am proud of the progress we have made to date at protecting habitat on the CU South property. I spent a great deal of time and effort negotiating to increase the amount of OS-O designation as part of the Comprehensive Plan update to a higher area than staff suggested. While CU owns the land, there is potentially greater habitat value on the land than the 80 acres that staff suggested for OS-O designation, and I worked with Tracy Winfree and others to learn that much of the area within the CU levee could potentially be restored to a good wetland habitat ecology, if the levee were breached. Armed with this knowledge, I was able to work with CU representatives and fellow Council members to take the Open Space designation from a staff-recommended 80 acres to an area closer to 160 acres. Further, we designated the flood detention area that may be built as part of the high-hazard dam project on South Boulder Creek as a Parks-style land use on which no buildings can be constructed. With all of this in place as well as the adopted guiding principles, I will work to make sure that any Annexation agreement will have a high degree of focus on habitat preservation and restoration, and the potential building area on this property will now be focused on the western portion. I will work for dedication of permanent open space on the 160 acres designated as OS-O, and for permanent access to the portions of the property that will be used for flood control.`
       }
     ]
   },

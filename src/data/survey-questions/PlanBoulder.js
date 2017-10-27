@@ -59,7 +59,7 @@ Colorado and western-US companies.`
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `Lived in Boulder County since 1989, off and on in the City of Boulder, and full time in the city since 2008. I am CEO of a small cleantech manufacturing company.`
       }
     ]
   },
@@ -144,7 +144,9 @@ As a long-term member/user/irrigator/volunteer of Silver Lake Ditch, which irrig
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `Energy modelling for the muni campaign in 2011 in which service I debated Xcel reps 8 times.  Two years of service on the Planning Board, 4 years of service on the Boulder City Council.  Other roles in the region:
+
+Appointed to the Clean Energy Development Authority in 2007, served on the Board of Directors (BOD) of the Colorado Solar Energy Industries Association 2011 and 2012, clean energy modelling for muni campaign in 2011 with Empower Our Future, debating Xcel and anti-muni representatives in support of muni effort 8 times in 2011 election cycle, served on BOD of Clean Energy Action 2010-2013. Helped develop and get through title-setting a citizens’ petition with CCRI for a state-wide carbon tax in 2008 (not enough signatures gathered). Analysis and education for CU class and other public speaking of impact of fracked methane emissions on climate.`
       }
     ]
   },
@@ -229,7 +231,7 @@ incorporating progressive values and a sense of place into current decisionmakin
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `I have been proud and humbled by the chance to serve this community for the last 6 years, and would be honored to serve it again if the residents of Boulder think that’s a good path forward.  I have always strived to be a servant-leader, serving on a host of boards of environmental organizations, being an active member of the Sugarloaf Volunteer Fire Department for 15 years, 2 of those as Chief, and serving on the Boulder Planning Board before being elected to City Council.  I have also founded and run two companies here in town, one of which is devoted to producing electricity through sustainable means. I would be proud to represent the people of Boulder again on Council, and the reasons I am running include mitigating and adapting to climate change, promoting renewable energy and energy efficiency, working to implement better land use policy that includes increased community benefit, and furthering social and economic equity in our city.`
       }
     ]
   },
@@ -290,7 +292,7 @@ incorporating progressive values and a sense of place into current decisionmakin
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `Yes`
       }
     ]
   },
@@ -370,7 +372,7 @@ issue.`
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `I strongly support retaining 4-body review for all possible annexations into Boulder.  The City and the County have worked collaboratively for many years to define the City’s growth boundaries, and I see no convincing argument to change the process.`
       }
     ]
   },
@@ -463,7 +465,7 @@ Planning Department, and I would support that.`
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `I strongly favor implementing sub-community planning as a regular and routine element of our planning processes.  Such plans provide an opportunity for residents and businesses and landowners sited in each sub-community an opportunity to shape the future of the area.  I believe that dedicated staff should be hired to run the process, and that each sub-community could be led through a planning process that would take 2 years, so that the entire City would have this granular process completed in 20 years, and then the first sub-community plan would be refreshed.   I believe the easiest sub-community plan to start with would be North Central Boulder, since the Alpine/Balsam planning, the Broadway Corridor study, and the Iris and Broadway process are all focused in this sub-community, and would form the basis for a sub-community plan for the entire area.`
       }
     ]
   },
@@ -557,7 +559,7 @@ planning.`
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `I agree with the PPWG conclusions, and think that the most important recommendation is to engage the public early, and during the formation of any problem definition.  I also want to see additional capacity in the City to produce public engagement processes that are similar across departments.`
       }
     ]
   },
@@ -691,7 +693,7 @@ fees/disincentives to driving gas-powered vehicles) and by increasing building e
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `I absolutely support continuing the muni development effort.  In parallel, or if the muni effort should be stopped in some manner, I believe we need to work at the state to set up a modern path to municipalization based on metering electric wires which cross political boundaries, and not based on physical separation. Further, the ultimate solution to utility regulation in Colorado is a choice regime for electrical power purchases which is similar to the Texas ERCOT system.  The City should support state-wide efforts to make that happen.`
       }
     ]
   },
@@ -812,7 +814,7 @@ Money from linkage fees could be used for preservation of housing that is alread
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `Causes include growth limitations from open space, the height limit, Boulder as a regional jobs center, and the current zoning which will enable much greater job growth than housing. Boulder is an extremely desirable place to live, based in part on the accessibility of open space, the strong economy, and great amenities such as the Pearl Street Mall and Chautauqua. In order to create more permanently affordable housing. I support extending the inclusionary zoning requirement to the current 20% but add a 5% middle income requirement. I support a linkage fee that is much higher, such as $35/sq-ft for Class A office space.  And I support a down-payment loan program for the lower end of the middle income spectrum which will be an evergreen fund, and each residence that receives such a loan for its purchase will become deed-restricted permanently affordable.`
       }
     ]
   },
@@ -931,7 +933,7 @@ affordable housing, using deed-restrictions, and creating land trusts on city-ow
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `I support extending the inclusionary zoning requirement to the current 20% but add a 5% middle income requirement. And I support a down-payment loan program for the lower end of the middle income spectrum which will be an evergreen fund, and each residence that receives such a loan for its purchase will become deed-restricted permanently affordable.`
       }
     ]
   },
@@ -1037,7 +1039,7 @@ we are going to ignore it?`
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `I support a linkage fee that is much higher, such as $35/sq-ft for Class A office space.`
       }
     ]
   },
@@ -1115,7 +1117,7 @@ City of Boulder and the University.`
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `The City should work with CU to get CU to maximize the housing it builds to mitigate the impact of students on housing affordability.`
       }
     ]
   },
@@ -1204,7 +1206,7 @@ and depend on.`
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `I do support this concept, but cautiously.  Of great importance when considering such a move is the preservation of both service industrial (e.g., auto repair shops), and light industrial facilities where certain kinds of small manufacturing and research and development occur.  I believe this approach has promise if done carefully, and in a way that preserve businesses and retail while adding to the housing supply.`
       }
     ]
   },
@@ -1328,7 +1330,7 @@ The questions it raises for me are “How much recreational use?” “At what c
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `I think the time has come for a fee study to determine what the impacts would be on visitation, revenue, and improved maintenance if an entry fee were required for non-Boulder-County visitors. There are potential economic equity issues to be addressed, but City and some County residents pay for much of open space acquisition and maintenance, so they should be the priority beneficiaries of free access to the open space system.`
       }
     ]
   },
@@ -1416,7 +1418,7 @@ not more thoroughly considered.`
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `First and foremost, the trail alignment for the section of the trail that does not currently exist should be planned to route away from sensitive habitat areas, with the full involvement of the naturalists within the OSMP department.  Second, the trail should pass through habitat that has already been degraded by industrial activity as much as possible. Finally, the trail standard for trail width should be balanced with the need to protect habitat.`
       }
     ]
   },
@@ -1506,7 +1508,7 @@ developments in wetlands. This property should be moved to Area III. `
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `This parcel of land should probably never be annexed for a large project.  However, if sufficient flood mitigation and ground water studies followed by mitigation were completed, there is the possibility that some limited development could occur thre.  The guiding principle for me is that any development would have to be designed so that it did not impose external impacts on the existing neighborhoods, either ground water or flood.  It would also have to be safe for any new residents in a 100+ year flood.  These are high bars, and I would want to see a final project deign alongside any annexation request.`
       }
     ]
   },
@@ -1621,7 +1623,7 @@ ride service, once again strengthen our local economy and keep our dollars at ho
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `Yes.  Head tax, property tax increase, or charges for private parking are all methods that could fund a community-wide EcoPass.`
       }
     ]
   },
@@ -1721,7 +1723,7 @@ To leverage this impending disruption, Boulder, in collaboration with as many mu
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `The expert opinions about autonomous transit-as-a-service futures are somewhat divergent.  If TaaS services reduce greenhouse gas emissions, the City should encourage their use, and potentially reduce parking requirements.  If the emerging TaaS solutions instead cause more sprawl, in-commuting, and emissions, they should be strongly discouraged and the other solutions available emphasized. I am regularly skeptical of future silver-bullet solution by techno-optimists, but disruptive change in auto travel could be coming.`
       }
     ]
   },
@@ -1790,7 +1792,7 @@ completion.`
       },
       {
           "id": "sam-weaver",
-          "answer": ``
+          "answer": `Yes.`
       }
     ]
   }
