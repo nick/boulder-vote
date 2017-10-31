@@ -6,7 +6,7 @@ export default function styleHtml(html) {
     <div
       key={idx}
       className="mb-3"
-      dangerouslySetInnerHTML={{ __html: h.replace(/(•|·)/g, "<br/>•").replace(/\n- /g, "<br/>- ") }}
+      dangerouslySetInnerHTML={{ __html: h.replace(/(•|·|◦)/g, "<br/>•").replace(/\n- /g, "<br/>- ") }}
     />
   );
 }

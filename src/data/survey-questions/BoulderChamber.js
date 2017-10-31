@@ -4,6 +4,7 @@ export default [
     number: 1,
     question: 'Besides being in love with Boulder, tell us who you are and what the most compelling reason is for why you’re running for City Council?',
     questionShort: 'Introduction',
+    topics: ['candidate-insight'],
     answers: [
       {
           "id": "jan-burton",
@@ -195,6 +196,7 @@ benefit, and furthering social and economic equity in our city.`
     number: 2,
     question: 'What do you see as the vital components to the future of Boulder’s economic vitality and what specific strategies would you support as a City Councilmember to maintain a vibrant economy?',
     questionShort: 'Economic Vitality',
+    topics: ['growth-development'],
     answers: [
       {
           "id": "jan-burton",
@@ -472,6 +474,7 @@ business groups.`
     number: 3,
     question: 'What do you believe are the most pressing human service needs in the City of Boulder and why?',
     questionShort: 'Service Needs',
+    topics: ['projects-services'],
     answers: [
       {
           "id": "jan-burton",
@@ -688,6 +691,7 @@ afford to live in Boulder`
     number: 4,
     question: 'What do you believe is the appropriate role for the City of Boulder in addressing human service needs (e.g. housing, food, health care) for low income/marginalized people in our community?',
     questionShort: 'Marginalized People',
+    topics: ['projects-services'],
     answers: [
       {
           "id": "jan-burton",
@@ -912,6 +916,7 @@ is all as it should be in a progressive city like Boulder.`
     number: 5,
     question: 'The City has spent a considerable amount of money on buying the Boulder Community Hospital site. The site currently sits vacant and debt service accrues. Should this project be accelerated and how should it be developed?',
     questionShort: 'Community Hospital',
+    topics: ['projects-services'],
     answers: [
       {
           "id": "jan-burton",
@@ -1134,6 +1139,7 @@ site design.`
     number: 6,
     question: 'Do you support the Transportation Master Plan’s goal of increasing the mode share of bicycles from 10% to 30% by 2035 to achieve the community’s environmental and livability goals? If so, what concrete steps do you propose to achieve this and how do you anticipate doing that while maintaining safety for cyclists and motorists alike?',
     questionShort: 'Bicycle Mode Share',
+    topics: ['transportation'],
     answers: [
       {
           "id": "jan-burton",
@@ -1375,6 +1381,7 @@ of Boulder’s efforts towards better safety for all modes.`
     number: 7,
     question: 'What strategies do you support regarding land use, housing and transportation policies and programs to address the impacts of our in-commuting workforce?',
     questionShort: 'Commuter Workforce',
+    topics: ['transportation'],
     answers: [
       {
           "id": "jan-burton",
@@ -1639,6 +1646,7 @@ any decision-making process.`
     number: 8,
     question: 'Tell us your vision for open space moving forward, including specifically the challenges regarding the success of huge visitation. Would you prioritize either protection or recreation on a hypothetical new property?',
     questionShort: 'Open Space',
+    topics: ['open-space'],
     answers: [
       {
           "id": "jan-burton",
@@ -1943,6 +1951,7 @@ and minimize user conflict.`
     number: 9,
     question: 'Do you support Boulder’s drive to municipalize its electric utility? If so, what are the limits on taxpayer dollars and time you are prepared to spend to achieve that goal and, if not, how do you propose to achieve Boulder’s renewable energy goals?',
     questionShort: 'Municipalization',
+    topics: ['municipalization'],
     answers: [
       {
           "id": "jan-burton",
@@ -2206,6 +2215,7 @@ transportation.`
     number: 10,
     question: 'What transportation solutions would you suggest to ease congestion, especially resulting from 49,000 in-commuters, specifically those that drive alone? Would you favor solutions to improve roads and parking; bus or other transportation; cycling and walking, or some combination thereof? How would you fund transportation improvements? Do you favor higher parking costs and other disincentives to driving? ',
     questionShort: 'Traffic Congestion',
+    topics: ['transportation', 'traffic'],
     answers: [
       {
           "id": "jan-burton",
@@ -2454,6 +2464,7 @@ to build in areas and manners that allow all modes of travel.`
     number: 11,
     question: 'Despite Boulder’s reputation as a “green” community, our per-capita carbon footprint is pretty high. How can we shape our built environment and transportation systems for lower impact?',
     questionShort: 'Carbon Footprint',
+    topics: ['environment'],
     answers: [
       {
           "id": "jan-burton",
@@ -2682,6 +2693,7 @@ the hands of Boulder residents.`
     number: 12,
     question: 'Do you support Boulder’s inclusionary housing ordinance requirements to produce permanently affordable housing? Should the requirements include permanently affordable middle income housing? And, what do you think is the appropriate mix of permanently affordable rental versus ownership units?',
     questionShort: 'Inclusionary Housing',
+    topics: ['housing-affordability'],
     answers: [
       {
           "id": "jan-burton",
@@ -2938,6 +2950,7 @@ for permanent ownership affordability.`
     number: 13,
     question: 'Accessory dwelling units – otherwise known as “granny flats” – have been considered as one option for expanding affordable housing options in established neighborhoods. Please explain your position on whether or not ADUs are an appropriate affordable housing tool for our community?',
     questionShort: 'Accessory Dwelling Units',
+    topics: ['housing-affordability'],
     answers: [
       {
           "id": "jan-burton",
@@ -3149,6 +3162,7 @@ transfer and licensing of these structure much easier.`
     number: 14,
     question: 'What’s your vision for Boulders growth and development over the next 20 years? ',
     questionShort: 'Growth & Development',
+    topics: ['growth-development'],
     answers: [
       {
           "id": "jan-burton",
@@ -3384,6 +3398,7 @@ which do not exacerbate our in-commuting challenges. `
     number: 15,
     question: 'What are your specific strategies for promoting civil public discourse around growth and development? Please indicate what level of commitment you would have in regards to collaboration, consensus building and joint problem solving to address this issue?',
     questionShort: 'Civil Discourse',
+    topics: ['public-engagement'],
     answers: [
       {
           "id": "jan-burton",
@@ -3626,6 +3641,7 @@ consider this one of my strengths as a leader.`
     number: 16,
     question: 'What is the most important issue to you in Boulder and what kind of leadership will you provide for addressing it?',
     questionShort: 'Important Issues',
+    topics: ['candidate-insight'],
     answers: [
       {
           "id": "jan-burton",
@@ -3743,6 +3759,7 @@ pool of permanently affordable ownership units in Boulder`
     number: 17,
     question: 'As a Boulder City Council member what kind of legacy will you look to leave?',
     questionShort: 'Legacy',
+    topics: ['candidate-insight'],
     answers: [
       {
           "id": "jan-burton",

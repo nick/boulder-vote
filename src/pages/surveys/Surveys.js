@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 
 import SurveyData from '../../data/Surveys'
+import TopicData from '../../data/Topics'
 
 export default class AllSurveys extends Component {
     render() {
@@ -15,8 +16,7 @@ export default class AllSurveys extends Component {
               <span className="breadcrumb-item active">Surveys</span>
             </nav>
             <div className="row">
-              <div className="col-md-2 col-lg-3" />
-              <div className="col-md-10 col-lg-9 col-xl-6 pb-3">
+              <div className="col-md-8 col-lg-8 col-xl-9 order-md-2">
                 <h5 className="mb-3">Boulder City Council Candidate Surveys</h5>
                 {SurveyData.map(s =>
                   <div key={s.id} className="mb-3">
@@ -29,6 +29,18 @@ export default class AllSurveys extends Component {
                   </div>
                 )}
               </div>
+              <div className="col-md-4 col-lg-3 order-md-1">
+                <hr className="d-sm-none" />
+                <h5 className="mb-3">Topics</h5>
+                {TopicData.map(t =>
+                  <div key={t.id}>
+                    <Link to={`/topics/${t.id}`}>
+                      {t.name}
+                    </Link>
+                  </div>
+                )}
+              </div>
+
             </div>
           </div>
         )

@@ -18,7 +18,7 @@ const About = () => {
           <p>
             If you have ideas on how to improve the site, please post in the
             comments below, or tweet me <a href="https://twitter.com/nick_p">@nick_p</a>.
-            If you&rsquo;re a programmer, you can help also dive in
+            If you&rsquo;re a programmer, you can help by diving in
             at <a href="https://github.com/nick/boulder-vote">GitHub</a> -
             the site is completely open source.
           </p>

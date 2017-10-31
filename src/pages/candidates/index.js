@@ -4,6 +4,7 @@ import { Switch, Route } from "react-router-dom";
 import shuffleEachDay from '../../lib/shuffleEachDay'
 
 import Groups from "../../data/Groups";
+import TopicData from "../../data/Topics";
 import IssueData from "../../data/Issues";
 
 import SideBarLink from "../../components/SideBarLink";
@@ -23,25 +24,14 @@ const CandidatesWrapper = props => {
         </Switch>
       </div>
       <div className="col-sm-4 col-md-3 order-sm-1">
-        <h5 className="mt-3">Endorsements</h5>
+        <h5 className="mt-3">Topics</h5>
         <ul className="list-unstyled">
-          {shuffleEachDay(Groups).map(g => (
+          {shuffleEachDay(TopicData).map(t => (
             <SideBarLink
-              key={g.id}
+              key={t.id}
               location={props.location}
-              href={`/endorsement/${g.id}`}
-              children={g.name}
-            />
-          ))}
-        </ul>
-        <h5 className="mt-3">Issues</h5>
-        <ul className="list-unstyled">
-          {shuffleEachDay(IssueData).map(i => (
-            <SideBarLink
-              key={i.id}
-              location={props.location}
-              href={`/issues/${i.id}`}
-              children={i.name}
+              href={`/topics/${t.id}`}
+              children={t.name}
             />
           ))}
         </ul>
@@ -71,6 +61,28 @@ const CandidatesWrapper = props => {
               Voting Locations
             </a>
           </li>
+        </ul>
+        <h5 className="mt-3">Issues</h5>
+        <ul className="list-unstyled">
+          {shuffleEachDay(IssueData).map(i => (
+            <SideBarLink
+              key={i.id}
+              location={props.location}
+              href={`/issues/${i.id}`}
+              children={i.name}
+            />
+          ))}
+        </ul>
+        <h5 className="mt-3">Endorsements</h5>
+        <ul className="list-unstyled">
+          {shuffleEachDay(Groups).map(g => (
+            <SideBarLink
+              key={g.id}
+              location={props.location}
+              href={`/endorsement/${g.id}`}
+              children={g.name}
+            />
+          ))}
         </ul>
       </div>
     </div>

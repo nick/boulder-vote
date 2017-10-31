@@ -5,34 +5,74 @@ import { Helmet } from 'react-helmet'
 import shuffleEachDay from '../../lib/shuffleEachDay'
 import Candidates from '../../data/Candidates';
 import SurveyData from '../../data/Surveys';
+import TopicData from '../../data/Topics';
 import Groups from '../../data/Groups';
 
 import SideBarLink from '../../components/SideBarLink';
 
-function candidateAnswers(candidateId) {
-    var answers = [];
+// function candidateAnswers(candidateId) {
+//     var answers = [];
+//     SurveyData.forEach(s => {
+//         s.questions.filter(q => q.question).forEach(q => {
+//             answers = [
+//                 ...answers,
+//                 ...q.answers.filter(a => a.id === candidateId && a.answer).map(a =>
+//                     Object.assign({}, a, {
+//                         survey: s,
+//                         question: q
+//                     })
+//                 )
+//             ]
+//         })
+//     })
+//     return answers;
+// }
+
+function candidateTopics(candidateId) {
+    var topics = [];
     SurveyData.forEach(s => {
-        s.questions.filter(q => q.question).forEach(q => {
-            answers = [
-                ...answers,
-                ...q.answers.filter(a => a.id === candidateId && a.answer).map(a =>
-                    Object.assign({}, a, {
-                        survey: s,
-                        question: q
-                    })
-                )
-            ]
+        s.questions.filter(q => q.question && q.topics).forEach(q => {
+            if (q.answers.some(a => a.id === candidateId && a.answer)) {
+                (q.topics || []).forEach(t => {
+                    if (topics.indexOf(t) < 0) {
+                        topics.push(t);
+                    }
+                })
+            }
         })
     })
-    return answers;
+    return TopicData.filter(t => topics.indexOf(t.id) >= 0);
+}
+
+function candidateSurveys(candidateId) {
+    var surveys = [];
+    SurveyData.forEach(s => {
+        var didAnswer = false;
+        s.questions.filter(q => q.question).forEach(q => {
+            var candidateAnswer = q.answers.find(a => a.id === candidateId && a.answer);
+            if (!didAnswer && candidateAnswer) {
+                if (surveys.indexOf(s) < 0) {
+                    surveys.push({
+                        id: s.id,
+                        name: s.shortName,
+                        question: q,
+                        answer: candidateAnswer
+                    });
+                    didAnswer = true;
+                }
+            }
+        })
+    })
+    return surveys;
 }
 
 const Candidate = (props) => {
-    var candidate = Candidates.find(c => c.id === props.match.params.id);
-    var endorsements = candidate.endorsements
+    var candidateId = props.match.params.id,
+        candidate = Candidates.find(c => c.id === candidateId),
+        topics = candidateTopics(candidateId),
+        endorsements = candidate.endorsements
         .map((e) => Groups.find((g) => g.id === e))
         .filter(g => g);
-    var answers = candidateAnswers(candidate.id);
 
     return (
       <div className="row">
@@ -69,12 +109,12 @@ const Candidate = (props) => {
                 }
               </div>
               <div>{`${candidate.yearsInBoulder} years in Boulder`}</div>
-              {!answers.length ? null :
+              {!topics.length ? null :
                 <div className="candidate-links mt-3">
-                  <h5>{`${candidate.firstName}'s Survey Answers:`}</h5>
-                  {answers.map((a, idx) =>
-                    <Link key={idx} to={`/surveys/${a.survey.id}/${a.question.id}/${candidate.id}`}>
-                      {a.question.questionShort}
+                  <h5>{`${candidate.firstName}'s Answered Topics:`}</h5>
+                  {topics.map((t, idx) =>
+                    <Link key={idx} to={`/topics/${t.id}`}>
+                      {t.name}
                     </Link>
                   )}
                 </div>
@@ -95,15 +135,10 @@ const Candidate = (props) => {
               {!candidate.boulderChamberQA && !(candidate.surveys || []).length ? null :
                 <div className="candidate-links mb-3">
                   <h5>Surveys:</h5>
-                  {!candidate.boulderChamberQA ? null :
-                    <a href={candidate.boulderChamberQA} target="_blank">
-                      Boulder Chamber Q&A
-                    </a>
-                  }
-                  {shuffleEachDay(candidate.surveys || []).map(s =>
-                    <a key={s.id} href={s.url} target="_blank">
+                  {shuffleEachDay(candidateSurveys(candidateId) || []).map(s =>
+                    <Link key={s.id} to={`/surveys/${s.id}/${s.question.id}/${s.answer.id}`}>
                       {s.name}
-                    </a>
+                    </Link>
                   )}
                 </div>
               }

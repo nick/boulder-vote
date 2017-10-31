@@ -5,6 +5,7 @@ export default [
     question: `What are your major environmental achievements either as an elected/appointed official, or in a work or
 volunteer capacity?`,
     questionShort: 'Environmental Achievements',
+    topics: ['environment', 'candidate-insight'],
     answers: [
       {
           "id": "jan-burton",
@@ -61,7 +62,7 @@ In addition to this I’m happy to help some friends at a local honey company ca
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `For over a decade I directed all the educational programs at CU Boulder’s Fiske Planetarium. Education is the foundation for cultivating our future generations to be stewards of their environment and community. One of my most impactful environmental accomplishments at Fiske was creating a program called “Climate Change in our Backyard” which focuses applying NIMBY to localized effects of climate change in Boulder and the Front Range. Another environmental project I am proud of is leading the effort create the nation’s largest Dark Sky Reserve in Central Idaho with the Idaho Conservation League. The Dark Sky Reserve is providing a more holistic, ground up approach to conservation.`
       },
       {
           "id": "mirabai-nagle",
@@ -118,6 +119,7 @@ I believe that we need to change the language around climate change from “savi
     number: '2',
     question: `If elected, what are two achievable environmental goals that you would champion in the next two years?`,
     questionShort: 'Environmental Goals',
+    topics: ['environment', 'candidate-insight'],
     answers: [
       {
           "id": "jan-burton",
@@ -160,7 +162,7 @@ Second, I think it’s important to partner with CU more effectively to reduce w
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `With just over 12 years to reach our 2030 renewable energy goals, I would start by refocusing Boulder on an array of solutions that get us on track to reach its climate goals. I will champion renewable energy incentives for residential and commercial buildings throughout Boulder. I also strongly support cleaning up our waterways and in particular Boulder Creek. The health of creeks and rivers is often emblematic of the health of the communities they flow through. We must work to improve not just the water quality but the bank and ecosystems it supports.`
       },
       {
           "id": "mirabai-nagle",
@@ -212,6 +214,7 @@ Climate and energy: Continue to support the City organization reducing its carbo
     number: '3',
     question: `What importance do you attach to completion of Boulder’s Muni project? What outcome do you support?`,
     questionShort: 'Muni Project',
+    topics: ['municipalization'],
     answers: [
       {
           "id": "jan-burton",
@@ -259,7 +262,7 @@ endeavour this fight is one we have voted for on several occasions and we should
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `I support the Muni as one of many options we should pursue to achieve our climate goals. The city has been so consumed by the efforts to municipalize that we have not diversified our solutions or formulate a backup plan should the Muni fail. I want to know what this will really cost to buy and eventually operate and I will support the outcome that achieves our energy goals. The Muni should not limit Boulder’s abilities to invest in itself to help us bridge the renewable energy gap. I support city-funded renewable energy incentives for both residential and commercial, as well as net zero renewable energy requirements.`
       },
       {
           "id": "mirabai-nagle",
@@ -302,6 +305,7 @@ Outcome I’d support:
     id: 'natural-gas',
     number: '4',
     question: `What are your views on natural gas as a transition fuel from coal for electricity generation? `,
+    topics: ['environment'],
     questionShort: 'Natural Gas',
     answers: [
       {
@@ -334,7 +338,7 @@ renewables would be four times better than the equivalent coal generation, a hug
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `We are talking about the lesser of two evils here with coal and natural gas. Coal drives massive carbon dioxide emissions while natural gas drives methane emissions. Public preference is driven by extraction, and currently fracking is the model for natural gas. I do not support fracking as it is unregulated and environmentally damaging. We will need a mix of fossil fuels to bridge the gap until renewable energy and storage solutions fully mature.`
       },
       {
           "id": "mirabai-nagle",
@@ -381,6 +385,7 @@ Full disclosure: We currently have a natural gas on-demand hot water heater. Twe
 2018-2019. What should stewardship of OSMP lands look like? What issues should be addressed in the Master
 Plan? `,
     questionShort: 'Open Space Plan',
+    topics: ['open-space'],
     answers: [
       {
           "id": "jan-burton",
@@ -428,7 +433,7 @@ d. Getting people to trail heads without cars.`
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `The OSMP Master Plan is pivotal for Boulder to set its long term goals for dealing with the increased use and maintaining our Open Space. As use of our Open Space increases it will be vitally important for us to stay true to Boulder’s legacy of conservation and environmental stewardship and not give into the recreational demands. We must continue to analyze the traffic, parking, and trail degradation throughout our open space. We must be proactive and look ahead to the areas of open space that will be heavily impacted in the next 10-15 years.`
       },
       {
           "id": "mirabai-nagle",
@@ -475,6 +480,7 @@ The community as a whole (including all visitors) will ultimately have to make s
     number: '6',
     question: `How would you address demands between conservation and recreation? `,
     questionShort: 'Conservation',
+    topics: ['environment'],
     answers: [
       {
           "id": "jan-burton",
@@ -513,7 +519,7 @@ The department must take a leadership role in working with other agencies (Count
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `I view the priority of Open Space being conservation, but there are real demands recreationally on this space. I want the science and data to drive where we prioritize our conservation efforts. There are some places that are far more sensitive than others and we should address those levels of sensitivity in the OSMP Master Plan. Looking forward I see the NCAR trails becoming the next Chautauqua. We need to lay out a clear conservation plan so that we can better prepare South Boulder for the increased usage.`
       },
       {
           "id": "mirabai-nagle",
@@ -555,6 +561,7 @@ This very general question is difficult to answer in a general way except to des
     question: `How can the City best facilitate greater and safer use of the transportation network by bicyclists and
 pedestrians?`,
     questionShort: 'Bicyclists & Pedestrians',
+    topics: ['transportation'],
     answers: [
       {
           "id": "jan-burton",
@@ -601,7 +608,7 @@ Education and enforcement of current laws needs to be increased. We need to buil
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `We have ten traffic and/or pedestrian signals on Broadway between Baseline and University (in less than 2 miles). The traffic on this stretch is really bad and could be improved further. We need to explore more areas where we can move pedestrians and bicyclists above or below major thoroughfares (Ex: Baseline underpass). I would like to see the city better engage with the cycling community on striking the balance of bicycle friendly roads and bicycle paths. In the next 10-15 years transportation habits of our population will change dramatically. Planning for that will give us the best chance for a dynamic transportation network throughout Boulder.`
       },
       {
           "id": "mirabai-nagle",
@@ -670,6 +677,7 @@ The first and obvious answer to this question is to preserve and expand the exis
     number: '8',
     question: `What are your ideas for Boulder to reduce its emissions in the transportation sector?`,
     questionShort: 'Emissions',
+    topics: ['environment', 'transportation'],
     answers: [
       {
           "id": "jan-burton",
@@ -711,7 +719,7 @@ employment centers.
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `Reducing our emissions is key to Boulder meeting its climate goal of 80% reduction in greenhouse gases by 2050. Electric and autonomous vehicles will be a major part of local transportation in the next 10-15 years. Some studies suggest we might have 7,000-10,000 electric vehicles in Boulder over the next decade. I would create a transportation and energy plan that accommodates these vehicles to move freely in and out of town. This plan would include charging stations, centralized autonomous parking and upgrading our bus fleet to electric vehicles. Adopting electrical vehicles inherently connects our transportation plan with our renewable energy goals.`
       },
       {
           "id": "mirabai-nagle",
@@ -766,6 +774,7 @@ To leverage this impending disruption, Boulder, in collaboration with as many mu
     number: '9',
     question: `What would you do to continue the City’s efforts to protect pollinators?`,
     questionShort: 'Pesticides',
+    topics: ['environment'],
     answers: [
       {
           "id": "jan-burton",
@@ -796,7 +805,7 @@ The City Forrester can play a stronger role in encouraging people to either let 
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `The decimation of our pollinators is one of the most tragic impacts of climate change and pollution. As Board President of the Growe Foundation we focus on teaching students in 19 BVSD elementary schools the value of healthy eating, where food comes from and the value of pollinators in producing our food. The city has done a good job to limit the use of neonicotinoid insecticides on city property. Unfortunately many residents and businesses are still using these insecticides. We should explore a tax on these, like we tax tobacco and now sugary beverages since they are a risk to public health and safety.`
       },
       {
           "id": "mirabai-nagle",
@@ -840,6 +849,7 @@ Through neighborhood activities we can continue to raise awareness. But the most
 the CU South property. What environmental conditions do you suggest be included in the annexation agreement
 and why?`,
     questionShort: 'CU South',
+    topics: ['environment', 'planning-jurisdiction'],
     answers: [
       {
           "id": "jan-burton",
@@ -881,7 +891,7 @@ cars. This could be the best example of what an almost car-less village could lo
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `CU has every right to develop this land, so our top priority should be to minimize the impacts on the environment and surrounding community. I suggest a bold idea that would be a land swap agreement between CU and Flatirons Golf Course. CU would build on Arapahoe where there are already services to support that development. Flatirons Golf Course would move to the CU South property and would be designed as an environmentally friendly and flood-mitigated golf course that thus limits the impacts on the surrounding community. A great example of this is Fox Hollow Golf Course in Jefferson County.`
       },
       {
           "id": "mirabai-nagle",

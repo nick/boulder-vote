@@ -2,6 +2,7 @@ import BARHAQuestions from './survey-questions/BARHA';
 import BoulderChamberQuestions from './survey-questions/BoulderChamber';
 import PlanBoulderQuestions from './survey-questions/PlanBoulder';
 import SierraClubQuestions from './survey-questions/SierraClub';
+import OpenBoulderQuestions from './survey-questions/OpenBoulder';
 
 function responses(survey) {
     var uniqueCandidates = new Set();
@@ -38,6 +39,12 @@ const SurveyData = [
     name: 'Sierra Club',
     shortName: 'Sierra Club',
     questions: SierraClubQuestions
+  },
+  {
+    id: 'open-boulder',
+    name: 'Open Boulder',
+    shortName: 'Open Boulder',
+    questions: OpenBoulderQuestions
   }
 ]
 

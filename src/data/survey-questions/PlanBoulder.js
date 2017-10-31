@@ -4,6 +4,7 @@ export default [
     number: 'a',
     question: 'How long have you lived in Boulder and what is your employment?',
     questionShort: 'Time in Boulder',
+    topics: ['candidate-insight'],
     answers: [
       {
           "id": "jan-burton",
@@ -34,7 +35,7 @@ Colorado and western-US companies.`
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `I’ve lived in Boulder for 17 years and have lived in South Boulder for the past 10 years. I spent the last 12 years as an astronomer and educator at CU’s Fiske Planetarium. I am currently working with a number of environmental non-profits around the rocky mountain region.`
       },
       {
           "id": "mirabai-nagle",
@@ -68,6 +69,7 @@ Colorado and western-US companies.`
     number: 'b',
     question: 'Provide a description of your involvement with City of Boulder issues.',
     questionShort: 'Issue Involvement',
+    topics: ['candidate-insight'],
     answers: [
       {
           "id": "jan-burton",
@@ -99,7 +101,7 @@ Meals on Wheels, and am a 9-gallon blood donor for Bonfils.`
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `My scientific background compels me to observe and gather information long before I draw any conclusions. I’ve been to almost all of the city council meetings in the past 12 months and many of the study sessions. I participate in a plethora of community events that keeps me informed and in communication with people throughout Boulder`
       },
       {
           "id": "mirabai-nagle",
@@ -155,6 +157,7 @@ Appointed to the Clean Energy Development Authority in 2007, served on the Board
     number: 'c',
     question: 'Tell us why you are running for City Council and what you anticipate your contribution to the council will be.',
     questionShort: 'Council Contribution',
+    topics: ['candidate-insight'],
     answers: [
       {
           "id": "jan-burton",
@@ -197,7 +200,9 @@ advocate for what we are FOR, not just what we are AGAINST.`
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `I am running for Boulder City Council because as a young father and husband I realize it’s crucial to put our Future First. It’s is our generation’s time to lead the change we envision for this world. The polarization we see at the national and state level is not motivating our generation to be a part of the process of government. I intend to change that by being a moderating and stabilizing force in our local government to keep the pendulum from swinging too far in any one direction. I will consistently review issues with a data driven, evidence-based approach. My top three priorities are Effective Governance, Affordable Housing and Renewable Energy. I view Effective Governance as the foundation from which we measure our success or failure in reaching the goals we set for the array of issues we face in our community. I will bring a “quality over quantity” approach to Council and use evidence-based decision making to truly deliver on our goals. My career in the science and education community has given me the experience to learn that often time less is more and when trying to do too many things at once the overall quality will suffer.
+
+          Affordable housing is my second priority. We are currently witnessing the decline of the young working family in Boulder. Boulder has done well in building truly affordable housing but has done little to provide middle-income housing. We need a diversity of housing to offer an economic ladder for these young working families to thrive. My third priority is renewable energy. Here too, effective governance has made it harder for Boulder to reach its climate goals. Boulder has become distracted by our municipal utility efforts and we continue to not pursue a variety of solutions that get us to our goals. Boulder is famous for world leading climate research, let’s match that by leading in climate action.`
       },
       {
           "id": "mirabai-nagle",
@@ -240,6 +245,7 @@ incorporating progressive values and a sense of place into current decisionmakin
     number: 'd',
     question: 'Are you seeking City matching funds for your campaign?',
     questionShort: 'City Matching Funds',
+    topics: ['candidate-insight'],
     answers: [
       {
           "id": "jan-burton",
@@ -267,7 +273,7 @@ incorporating progressive values and a sense of place into current decisionmakin
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `Yes`
       },
       {
           "id": "mirabai-nagle",
@@ -306,6 +312,7 @@ City jurisdiction, as defined by the BVCP. In the recent BCVP 2015 update, the f
 review process was significantly changed. Do you agree with the changes? Why or why
 not?`,
     questionShort: 'Land Jurisdiction',
+    topics: ['planning-jurisdiction'],
     answers: [
       {
           "id": "jan-burton",
@@ -341,7 +348,7 @@ the city taking more control over the planning process for annexed parcels.`
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `I did not support these changes of 4-body review to the BVCP. From a process of streamlined government some of these changes made sense. While looking at the next few years we are going to need the help and commitment from the county and our sister communities in tackling affordable housing, homelessness and transportation. I feel that with those collaborative issues pending, it would be disingenuous for the City of Boulder to change the rules in the IGA for our own benefit. This would not bring Boulder County and our sister cities to the table for meaningful negotiations going forward.`
       },
       {
           "id": "mirabai-nagle",
@@ -384,6 +391,7 @@ approaches to giving citizens some certainty about the future of their neighborh
 and the quality and extent of our community’s built environment. Do you favor this
 approach to city planning? Why or why not?`,
     questionShort: 'City Planning',
+    topics: ['planning-jurisdiction'],
     answers: [
       {
           "id": "jan-burton",
@@ -427,7 +435,7 @@ contributing to those goals.`
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `I do support the process of creating sub-community plans and using them as a guide for the city as how best to manage the changes to many of the different parts of our community. I would like to see these plans inform the city as to where to designate areas of change and areas of stability. The other benefit to this approach is building an inclusive democracy here in Boulder. The growing frustration from neighborhood associations and the proposals for these various plans are a symptom of a local government that does not represent the diversity of people and views in this community. With out districting this city struggles to set a process of inclusionary decision-making. I strongly support moving our city to a truly representative democracy by enacting geographic representation through districts or wards.`
       },
       {
           "id": "mirabai-nagle",
@@ -477,6 +485,7 @@ City’s current processes for obtaining the public’s opinion about important 
 recommended many changes to these processes. Do you agree with the report’s
 conclusions and recommendations?`,
     questionShort: 'Public Participation',
+    topics: ['public-engagement'],
     answers: [
       {
           "id": "jan-burton",
@@ -519,7 +528,7 @@ development would just go away.`
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `I do agree with much of what this report identified as the current roadblocks reducing the transparency, communication, inclusion and efficacy of the cities policies. I am cautiously optimistic that council will take this report and its suggested changes to heart. The Public Participation Working Group only began the scratch the surface of how to improve the city’s governance and the processes in which we achieve our goals. One of the most impactful ways the city can improve is public participation is to do less and focus on “quality over quantity”. I will bring the leadership needed to make some tough decisions about what issues and agenda items the council must not take on in order to improve public participation and enhance the quality of the policies we enact.`
       },
       {
           "id": "mirabai-nagle",
@@ -570,6 +579,7 @@ planning.`
 support a Boulder Municipal Electric Utility, or if Boulder should fail in its efforts to
 create one, what would be your plan to achieve Boulder’s emission goals?`,
     questionShort: 'Municipal Utility',
+    topics: ['municipalization'],
     answers: [
       {
           "id": "jan-burton",
@@ -641,7 +651,7 @@ ballot.`
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `I do not support the current form and process from which we are pursuing the Municipal Utility. The Muni has become the goal unto itself and has thus dramatically limited our abilities to focus on a wide range of solutions. I strongly encourage the city to reset and recalibrate the process we have in front of us that get us to our climate goals. The economics and technologies surrounding renewable energy have changed dramatically over the past 5 years and we need a nimble approach that allows us to take advantage of these changes. Regardless of the outcome of the Muni, we will have to make massive local investments in renewable energy. The time is now to make that investment for our future.`
       },
       {
           "id": "mirabai-nagle",
@@ -703,6 +713,7 @@ fees/disincentives to driving gas-powered vehicles) and by increasing building e
     question: `What do you consider to be the major causes of the housing affordability issue in
 Boulder, and what policies do you support to address the problem?`,
     questionShort: 'Housing Affordability',
+    topics: ['housing-affordability'],
     answers: [
       {
           "id": "jan-burton",
@@ -770,7 +781,7 @@ polluter, crowd and lower the quality of life in our city. We are also missing o
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `I would first reshape this by saying that we don’t have an affordable housing issue rather we have an affordable land issue. The buildings we build in and of themselves aren’t more expensive that what you might find around the country. What driving the cost up is the cost of land itself. Our Open Space and building height moratorium mean that to provide more housing, we can’t build out and we can’t build up. That leaves us with increasing density as the only option. We are not going to solve the housing issue in Boulder but we can minimize the negative impacts that it brings. I support more deed restricting and exploring community land trust to provide real permanent affordability in our housing market. We also need to focus more effort housing for working class families. This will be difficult, as it requires a lot of land and houses than high-density developments.`
       },
       {
           "id": "mirabai-nagle",
@@ -827,6 +838,7 @@ housing that used to be affordable to Boulder’s middle-income residents, defin
 earning up to 150% of AMI. Do you view this as an affordability issue that should be
 addressed, and if so, what are your ideas for how to address it?`,
     questionShort: 'Affordable Home Funds',
+    topics: ['housing-affordability'],
     answers: [
       {
           "id": "jan-burton",
@@ -871,7 +883,7 @@ When 3.3 jobs are added for every new housing unit the economics dictate that de
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `This is an affordability issue, and we are witnessing the decline and exodus of young working families. They are being driven out of Boulder because they simply can’t afford to live here. These families represent much of the youth and vibrancy we cherish in Boulder. To do nothing is to, give up on an entire generation of future Boulder families. This is where we can let market forces and private sector help us out. Boulder does not need to subsidize everything we do in pursuit of housing affordability. By rezoning and changing the land use of specific areas of Boulder we can provide non subsidized housing that is then affordable for young working families. Reducing the lot size minimums for single-family homes allows us to get more homes per acre.`
       },
       {
           "id": "mirabai-nagle",
@@ -949,6 +961,7 @@ the city (39%); The city staff recommended that the Council adopt a linkage fee 
 per square foot, and the council adopted a fee of $12. Would you favor increasing the
 affordable housing commercial linkage fee? If at what level should it be set?`,
     questionShort: 'Linkage Fee',
+    topics: ['housing-affordability'],
     answers: [
       {
           "id": "jan-burton",
@@ -1003,7 +1016,7 @@ to optimizing the linkage fee to maximize benefit - not an ideological agenda.`
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `The $12 per square foot was a roughly 30% increase from where it was. This is such a recent change, I’d like to see how it’s impacting commercial development and funding of Affordable housing before raising it again in rapid succession. I support a quantitative review of our current impacts fees next year to see what adjustments, if any need to be made. Zoning for mixed-use limits the impacts of commercial development on housing and transportation.`
       },
       {
           "id": "mirabai-nagle",
@@ -1050,6 +1063,7 @@ we are going to ignore it?`
 will be added at CU-Boulder by 2030. Who should be responsible for housing these
 additional students and where should they be housed?`,
     questionShort: 'Student Housing',
+    topics: ['growth-development'],
     answers: [
       {
           "id": "jan-burton",
@@ -1082,7 +1096,7 @@ with CU regarding water and annexation of CU South.`
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `This is a shared solution. The brunt of which lies with CU. They can do as they choose on campus to meet their housing needs, but as soon as it spill out into the city we are obligated to engage in the process and solutions. Aside from whatever solution is settled on for CU South, CU is running out of room from which to continue to expand enrollment. The current CU South proposal is not the right solution for South Boulder or CU for that matter. New creative solutions are needed. Boulder has an unusually high percentage of housing in the form of rental properties. This is exacerbated by the rental demand coming from CU students. I support CU contributing funding to a community land trust from which we can build permanent affordable housing. This is a concrete way to get them to help solve the very issue they help create.`
       },
       {
           "id": "mirabai-nagle",
@@ -1130,6 +1144,7 @@ commercial and industrial uses be rezoned to residential and mixed use. Do you s
 this recommendation? If so, which industrial and commercial areas would be most
 appropriate for rezoning?`,
     questionShort: 'Rezoning',
+    topics: ['growth-development', 'housing-affordability'],
     answers: [
       {
           "id": "jan-burton",
@@ -1169,7 +1184,7 @@ between 30th and Foothills, North Broadway, and east Arapahoe.`
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `I do support this approach. The geographic center of Boulder (west of Foothills, south of Pearl St. and north of Arapaho) is largely dominated by industrial. This is one of the best areas for this kind of rezoning. Multiple transit arteries flank these properties and the surround area has plenty of infrastructure to support this housing. We do need to think about where we want to relocate some of these industrial and commercial businesses as many of them serve important functions for the city.`
       },
       {
           "id": "mirabai-nagle",
@@ -1217,6 +1232,7 @@ and depend on.`
 face of this increasing demand, what measures would you support to ensure that the
 Open Space system is sustainable into the future?`,
     questionShort: 'Sustaining Open Space',
+    topics: ['open-space'],
     answers: [
       {
           "id": "jan-burton",
@@ -1285,7 +1301,7 @@ expectation.
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `The first step is to not react to this demand like we have been. We know where people most like to recreate in Boulder’s Open Space. We reacted to the volumes of people at Chautauqua and were thus left with few solutions at our disposal. Look at the next areas of high impact and provide supporting infrastructure will be vital to minimizing the environmental impact on those areas. I see NCAR and Mt Sanitas as being this area to feel added pressure in the coming years.`
       },
       {
           "id": "mirabai-nagle",
@@ -1343,6 +1359,7 @@ condition that it carefully limit any negative impacts to the eco-systems there.
 would you assure yourself and the public that the trail does not create such negative
 impacts?`,
     questionShort: 'Open Space Bike Trail',
+    topics: ['open-space'],
     answers: [
       {
           "id": "jan-burton",
@@ -1380,7 +1397,7 @@ good trail design and construction techniques.`
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `This is a very similar issues to that of what Ive experience in working with the Idaho Conservation League and how they work with the Forest Service and the Wilderness Stewardship program. Environmental Impact Studies and regular monitoring are essential to achieving a balance between recreation and environmental impacts. It’s takes the political will and leadership to make clear that recreation can and will be limited should the impacts exceed the agreed upon environmental tolerances. All of this cost’s money and with Boulder’s healthy Open Space budget, we need to focus on long-term management and stewardship rather than buying new Open Space.`
       },
       {
           "id": "mirabai-nagle",
@@ -1431,6 +1448,7 @@ residential development of 117 dwelling units. Do you think it should be annexed
 developed as proposed? Annexed and developed in some different manner than
 proposed? Not annexed? Why?`,
     questionShort: 'Hogan-Pancost',
+    topics: ['growth-development'],
     answers: [
       {
           "id": "jan-burton",
@@ -1474,7 +1492,7 @@ sub-division that could have been pulled from any suburban area.`
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `The proposed residential development has evolved well over the years as compared to some of the first proposals. Moving to lower density on this property has been the right move as has not building on a vast majority of the existing wetlands.  The city is working with CU on CU South, so we should be operating in the same way with Hogan-Pancost. We should solidify our understanding of the groundwater issues in the areas before we annex this property and I’d like to see fewer units and a focus on them being priced for our middle income and middle class working families.`
       },
       {
           "id": "mirabai-nagle",
@@ -1518,6 +1536,7 @@ developments in wetlands. This property should be moved to Area III. `
     question: `Do you support a community-wide Eco-Pass throughout the City? If so, what are
 your ideas for paying for it?`,
     questionShort: 'Eco-Pass',
+    topics: ['projects-services'],
     answers: [
       {
           "id": "jan-burton",
@@ -1574,7 +1593,7 @@ goals.`
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `I do support a community-wide Eco-Pass. I would look to pay for it in a variety of ways. A Head Tax would work as well as using the vague “community benefit” to fund the Eco-Pass.`
       },
       {
           "id": "mirabai-nagle",
@@ -1638,6 +1657,7 @@ by large organizations and rented to users on a ride-by-ride basis. Do you think
 prediction will be fulfilled in the next 20 years? If yes, how should the City prepare for,
 and respond to this new transportation reality?`,
     questionShort: 'GHG Emissions',
+    topics: ['environment'],
     answers: [
       {
           "id": "jan-burton",
@@ -1677,7 +1697,7 @@ walking, and taking the bus fun, fast, convenient, and much safer.`
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `I am very confident that this will become reality in the next 10-15 years. This transit revolution will likely follow the growth model for smart phones, which were only introduced a decade ago. We need to rethink our Transportation Master Plan to focus on this future of transportation. The last thing we should do is spend money now on a problems that will either not exist or will be completely different in the next decade. Some recent studies point to between 7,000 and 10,000 electric vehicles in Boulder in less than 10 years. With vehicles no longer need to park near you as they will be in constant movement, we can completely rethink parking in and around the city. We could just focus on a few centralized parking and charging hubs. This also changes how we think of our streets and traffic lights. One-way streets would offer a far more efficient way to move people through the city. We should partner with our newest neighbor, Google, to explore and analyze this transportation revolution. Google is one of the pioneers of autonomous vehicles and will be crucial in shaping the future of Boulder. This partnership should provide insight on how to prepare policy, infrastructure and management to prepare for this new future.`
       },
       {
           "id": "mirabai-nagle",
@@ -1734,6 +1754,7 @@ To leverage this impending disruption, Boulder, in collaboration with as many mu
 Demand Management for a limited time period. Do you think that TDM should be
 required to extend over the entire life of a development?`,
     questionShort: 'Transportation Demand',
+    topics: ['transportation'],
     answers: [
       {
           "id": "jan-burton",
@@ -1764,7 +1785,7 @@ completion.`
       },
       {
           "id": "matt-benjamin",
-          "answer": ``
+          "answer": `Given the impending transit revolution the current limited TDM is insufficient for us to plan for and adjust to these future transportation needs. I recommend moving to a 20 year TDM especially given the unknowns with EV and Autonomous infrastructure. Once we get through some or most of this transition to our transportation infrastructure there should be an option for extension or termination based on the efforts made to manage those developments transportation demands.`
       },
       {
           "id": "mirabai-nagle",

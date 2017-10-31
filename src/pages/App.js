@@ -4,10 +4,13 @@ import { Helmet } from 'react-helmet';
 
 import daysToGo from '../lib/daysToGo';
 
+import Topics from './topics/Topics';
+import TopicQuestions from './topics/Questions';
+import TopicAnswers from './topics/Answers';
+
 import Surveys from './surveys/Surveys';
 import Survey from './surveys/Survey';
 import SurveyQuestions from './surveys/Questions';
-
 
 import BallotIssues from './ballot-issues/AllIssues';
 import BallotIssue from './ballot-issues/Issue';
@@ -63,6 +66,13 @@ class App extends Component {
                     <li className="nav-item">
                       <NavLink
                         className="nav-link"
+                        to="/topics"
+                        onClick={() => this.setState({ toggled: false })}
+                      >Topics</NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink
+                        className="nav-link"
                         to="/surveys"
                         onClick={() => this.setState({ toggled: false })}
                       >Surveys</NavLink>
@@ -96,6 +106,10 @@ class App extends Component {
                 <Route path="/surveys/:survey/:question" component={Survey} />
                 <Route path="/surveys/:survey" component={SurveyQuestions} />
                 <Route path="/surveys" component={Surveys} />
+                <Route path="/topics/:topic/:survey/:question/:candidate" component={TopicAnswers} />
+                <Route path="/topics/:topic/:survey/:question" component={TopicAnswers} />
+                <Route path="/topics/:topic" component={TopicQuestions} />
+                <Route path="/topics" component={Topics} />
                 <Route component={Candidates} />
               </Switch>
               <div className="footer">

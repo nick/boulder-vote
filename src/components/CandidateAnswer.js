@@ -1,10 +1,10 @@
 import React from 'react';
 
-import CandidateData from '../../data/Candidates'
+import CandidateData from '../data/Candidates'
 
-import styleHtml from '../../lib/styleHtml'
-import ProfilePic from '../../components/ProfilePic'
-// import Rate from '../../components/Rate';
+import styleHtml from '../lib/styleHtml'
+import ProfilePic from './ProfilePic'
+// import Rate from './components/Rate';
 
 function onClickTweet(e, tweet) {
     e.preventDefault();

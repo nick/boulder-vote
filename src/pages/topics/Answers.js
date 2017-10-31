@@ -7,26 +7,28 @@ import questionInfo from '../../lib/questionInfo'
 
 import SurveyData from '../../data/Surveys'
 import CandidateData from '../../data/Candidates'
+import TopicData from '../../data/Topics'
 
 import CandidateNames from '../../components/CandidateNames'
 import Answer from '../../components/CandidateAnswer';
+import SideBarLink from '../../components/SideBarLink'
 
-import QuestionLinks from './_QuestionLinks';
-
-const Survey = (props) => {
-    var surveyId = props.match.params.survey,
+const TopicAnswers = (props) => {
+    var topicId = props.match.params.topic,
+        topic = topicId ? TopicData.find(t => t.id === topicId) : null,
+        surveyId = props.match.params.survey,
         survey = SurveyData.find(c => c.id === surveyId),
         questionId = props.match.params.question,
         question = survey.questions.find(q => q.id === questionId),
         candidateId = props.match.params.candidate,
-        questionUrl = `/surveys/${surveyId}/${questionId}`;
+        questionUrl = `/topics/${topicId}/${surveyId}/${questionId}`;
 
     var { firstAnswer, candidatesNoAnswer } = questionInfo(question);
 
     if (!candidateId) {
-        var uri = `/surveys/${surveyId}`;
+        var uri = `/topics/${topicId}`;
         if (firstAnswer) {
-            uri += `/${questionId}/${firstAnswer.id}`;
+            uri += `/${surveyId}/${questionId}/${firstAnswer.id}`;
         }
         return <Redirect to={uri} />
     }
@@ -36,9 +38,9 @@ const Survey = (props) => {
         <Helmet title={`Survey ${survey.name}`} />
         <nav className="breadcrumb mt-3">
           <Link to="/" className="breadcrumb-item">Home</Link>
-          <Link to="/surveys" className="breadcrumb-item">Surveys</Link>
-          <Link to={`/surveys/${survey.id}`} className="breadcrumb-item">
-            {survey.shortName}
+          <Link to="/topics" className="breadcrumb-item">Topics</Link>
+          <Link to={`/topics/${topicId}`} className="breadcrumb-item">
+            {topic.name}
           </Link>
           <span className="breadcrumb-item active">
             {question.questionShort}
@@ -54,7 +56,7 @@ const Survey = (props) => {
                 onSelect={(c) => props.history.push(`${questionUrl}/${c}`)}
               />
               <div style={{ borderTop: '1px solid #eee' }} className="mb-3 mt-2 pt-3">
-                <b>{`${question.number}. ${question.question}`}</b>
+                <b>{`${question.question}`}</b>
               </div>
               <Answer
                 question={question}
@@ -65,16 +67,21 @@ const Survey = (props) => {
           </div>
           <div className="col-md-4 col-lg-3 order-md-1">
             <hr className="d-sm-none" />
-            <h5>{`${survey.shortName} Survey`}</h5>
-            <QuestionLinks
-              survey={survey}
-              candidateId={candidateId}
-              location={props.location}
-            />
+            <h5>Topics</h5>
+            <ul className="list-unstyled">
+              {TopicData.map(t =>
+                <SideBarLink
+                  key={t.id}
+                  location={props.location}
+                  href={`/topics/${t.id}`}
+                  children={t.name}
+                />
+              )}
+            </ul>
           </div>
         </div>
       </div>
     )
 }
 
-export default Survey;
+export default TopicAnswers;

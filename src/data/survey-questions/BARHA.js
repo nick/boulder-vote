@@ -4,6 +4,7 @@ export default [
     number: 1,
     question: 'Please​ ​tell​ ​us​ ​a​ ​little​ ​bit​ ​about​ ​yourself​ ​and​ ​why​ ​you​ ​are​ ​running​ ​for​ ​council.',
     questionShort: 'Introduction',
+    topics: ['candidate-insight'],
     answers: [
       {
         id: 'jan-burton',
@@ -111,6 +112,7 @@ export default [
     number: 2,
     question: 'Have​ ​you​ ​ever​ ​been​ ​a​ ​tenant?​ ​​ ​Where?​ ​​ ​Tell​ ​us​ ​about​ ​your​ ​experience.',
     questionShort: 'Being a tenant',
+    topics: ['candidate-insight'],
     answers: [
       {
           "id": "jan-burton",
@@ -173,6 +175,7 @@ export default [
     number: 3,
     question: 'Have​ ​you​ ​ever​ ​owned​ ​or​ ​managed​ ​any​ ​investment​ ​properties​ ​or​ ​worked​ ​in​ ​the​ ​rental​ ​housing industry​ ​in​ ​any​ ​aspect?​',
     questionShort: 'Rental industry',
+    topics: ['candidate-insight'],
     answers: [
       {
           "id": "jan-burton",
@@ -236,6 +239,7 @@ export default [
     number: 4,
     question: 'Over 50% of residential housing in the Boulder market is rental properties. Based on your experience in Boulder and the business arena, what is the economic impact of this unusually high saturation of rental housing in the city?',
     questionShort: 'Rental Impact',
+    topics: ['rental-market'],
     answers: [
       {
           "id": "jan-burton",
@@ -303,6 +307,7 @@ export default [
     number: 5,
     question: 'Housing Affordability for middle-income families is becoming more and more difficult in Boulder.  Currently, Boulder only allows 3 or 4 unrelated people to occupy a home depending on the zoning district.   The number of people allowed, however, has no relationship to the size of the home. This leaves larger properties (4 bedrooms and up) underutilized with respect to housing. What suggested solutions do you have to remedy this problem?',
     questionShort: 'Occupancy Limits',
+    topics: ['housing-affordability', 'rental-market'],
     answers: [
       {
           "id": "jan-burton",
@@ -367,6 +372,7 @@ export default [
     number: 6,
     question: 'Are you familiar with Smart Regs?  If so, I am sure you aware that the deadline for compliance is quite near.  For older properties, compliance can be difficult and there is a strong possibility that many will fall short due to complexities of those particular properties.  What are your suggestions on how to make this a win-win for both the city and the property owner?',
     questionShort: 'Smart Regs',
+    topics: ['rental-market'],
     answers: [
       {
           "id": "jan-burton",
@@ -433,6 +439,7 @@ export default [
     number: 7,
     question: 'As business owners and members of the community what ways would you suggest that we could best work with the city in a collaborative effort?',
     questionShort: 'BARHA Collaboration',
+    topics: ['rental-market'],
     answers: [
       {
           "id": "jan-burton",
