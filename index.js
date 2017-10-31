@@ -1,4 +1,5 @@
 import express from 'express'
+import compression from 'compression'
 import serveStatic from 'serve-static'
 import fs from 'fs'
 import { exec } from 'child_process'
@@ -11,6 +12,7 @@ import { Helmet } from 'react-helmet'
 import Routes from './src/Routes'
 
 const app = express()
+app.use(compression())
 app.use(serveStatic('public'))
 
 var bundle = "http://localhost:8080/public/bundle.js";

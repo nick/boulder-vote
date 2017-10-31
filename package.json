@@ -1,8 +1,12 @@
 {
   "name": "boulder-vote",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "https://bouldervote.com",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick/boulder-vote.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node -r babel-register index",
