@@ -43,7 +43,17 @@ Sierra club for the first time when I was 13 and have been a member since 1977, 
       },
       {
           "id": "jill-grano",
-          "answer": ``
+          "answer": `College: Focused studies in environmental politics:
+○ Extensively researched & wrote about Persistent Organic Pollutants and was chosen to be a contributor to the “North American Civil Society Statement to the 24th UNEP Governing Council/Global Ministerial Environment Forum”
+○ TA & research assistant for Dr. Maria Ivanova & one of the student founders of The Global Environmental Governance Project (still thrives today)
+
+Boulder:
+○ Founded campaign (through New Era) to reduce disposal bags - this campaign resulted in our bag fee ordinance
+○ Campaigned for Municipalization from 2011 to present (have participated in door knocking, phone calls, & thrown fundraisers)
+○ Campaigned for Smart Regs
+○ Have raised children who are passionate about environmental protection
+`
+
       },
       {
           "id": "eric-budd",
@@ -148,7 +158,9 @@ B) Transportation – Work with large employers to bring in commuters from L tow
       },
       {
           "id": "jill-grano",
-          "answer": ``
+          "answer": `● I am passionate about Boulder being in control of our energy future through municipalization. I will continue to champion this effort.  Whether muni is successful or not, we need to move forward with incentivizing rooftop solar and the electrification of our homes, commercial spaces, and vehicles. I will actively champion this.
+          ● I would like to see us move forward with carbon sequestration and will actively champion this effort
+          ● If you will accept a 3rd - I think it is important for city leaders to form regional alliances and to be more active at the state level. Especially on fracking.`
       },
       {
           "id": "eric-budd",
@@ -248,7 +260,7 @@ I support whatever moves Boulder closer to a carbon-free energy future for a cos
       },
       {
           "id": "jill-grano",
-          "answer": ``
+          "answer": `I am strongly committed to city moving forward with municipalization, and have actively campaigned for muni since 2011. Being in control of our energy future is deeply important to me and if we cannot achieve it at the local level, I will campaign at the State level for control. In order to meet our climate goals we need far more flexibility to control of our grid than we have today. In this election cycle I am boldly, publically supporting the extension of our occupation tax and encouraging others to do the same.`
       },
       {
           "id": "eric-budd",
@@ -326,7 +338,7 @@ renewables would be four times better than the equivalent coal generation, a hug
       },
       {
           "id": "jill-grano",
-          "answer": ``
+          "answer": `Natural gas is not the right transition fuel because of the way it is extracted from our earth. Fracking presents a huge environmental, health, and safety hazard and we should be working as hard as possible to move away from it.  In my professional career I have worked to engage my colleagues in this conversation because fracking and forced pooling is a huge infringement on personal property rights.`
       },
       {
           "id": "eric-budd",
@@ -421,7 +433,14 @@ d. Getting people to trail heads without cars.`
       },
       {
           "id": "jill-grano",
-          "answer": ``
+          "answer": `The top priorities should be:
+          ● Protection of wildlife habitat and wildlife corridors.
+          ● Identify more ways to get children into nature. The future of our planet depends on getting kids off devices and into nature.
+          ● Balancing recreation & conservation.
+          ● Trail design in order to mitigate conflict between users.
+          ● Enhanced OSMP maintenance plan.
+          ● A modern/tech approach to communicating trail rules & regulations. With so many tourists using our trails, we need a more effective way to communicate how to respect open space. Will discuss specific ideas in meeting.
+          ● Continued acquisition of open space. Will discuss specific properties in meeting.`
       },
       {
           "id": "eric-budd",
@@ -507,7 +526,7 @@ The department must take a leadership role in working with other agencies (Count
       },
       {
           "id": "jill-grano",
-          "answer": ``
+          "answer": `Conservation & recreation can live in harmony. Our first priority should be to continue to identify wildlife habitats and other areas which should be strictly preserved and remain untouched. We should also continue to identify areas which are acceptable for recreation.  Within the areas identified for recreation, we need to continue to collaborate with shareholder groups and work toward creative solutions. Let’s talk about specific ideas when we meet.`
       },
       {
           "id": "eric-budd",
@@ -596,7 +615,7 @@ Education and enforcement of current laws needs to be increased. We need to buil
       },
       {
           "id": "jill-grano",
-          "answer": ``
+          "answer": `We were onto something when we tried “right sizing” however I think we should have piloted that project on roads that won’t go so “head to head” with cars. Folsom is a dangerous street for cyclists. I would like to see a right size project on 19th and/or 13th instead of Folsom. I believe continuing to increase car parking fees, plus create ample bike parking spaces is important. As we move toward specifically defining community benefit, consider bike lockers, showers, etc. a community benefit.`
       },
       {
           "id": "eric-budd",
@@ -629,8 +648,7 @@ Safer Use:
       },
       {
           "id": "bill-rigler",
-          "answer": `As the Chairman of the Transporation Advisory Board for the past two years, I work on a daily basis with neighborhood groups, think tanks, advocacy organizations, local businesses, and the tech community to advance a safety agenda that benefits all users. This includes awareness and education campaigns, engineering treatments, and even practical efforts like distributing free bike lights. We need to do everything we can to make cycling and walking more convenient, safer, and accessible. I also support bike lockers at transit stations, bike parking and infrastructure investments in new developments, and on-street bike paths.
-`
+          "answer": `As the Chairman of the Transporation Advisory Board for the past two years, I work on a daily basis with neighborhood groups, think tanks, advocacy organizations, local businesses, and the tech community to advance a safety agenda that benefits all users. This includes awareness and education campaigns, engineering treatments, and even practical efforts like distributing free bike lights. We need to do everything we can to make cycling and walking more convenient, safer, and accessible. I also support bike lockers at transit stations, bike parking and infrastructure investments in new developments, and on-street bike paths.`
       },
       {
           "id": "cindy-carlisle",
@@ -707,7 +725,9 @@ employment centers.
       },
       {
           "id": "jill-grano",
-          "answer": ``
+          "answer": `Increasing the availability of electric charging stations is huge. The majority of our population either rents (and therefore can’t or won’t spend the money to build charging stations at their home) or lives in multifamily homes with no garages. If people are going to be able to charge their cars, it is important that the city increases the availability of charging stations and that the city seeks out public private partnerships.
+
+          Create more dedicated electric car parking spaces. Perhaps consider making some electric car spaces free.`
       },
       {
           "id": "eric-budd",
@@ -793,7 +813,7 @@ The City Forrester can play a stronger role in encouraging people to either let 
       },
       {
           "id": "jill-grano",
-          "answer": ``
+          "answer": `The city has done a great job of eliminating neonics themselves, but continued education for the public is needed. We should also continue to identify further opportunities for pollinator highways. Additionally, we should further incentivize the public to plant native flowers that attract bees. Free flowers at the farmer's market, for example, could go a long way. We should also lobby at the State level for increased regulation of neonics on farmland, etc.`
       },
       {
           "id": "eric-budd",
@@ -879,7 +899,7 @@ cars. This could be the best example of what an almost car-less village could lo
       },
       {
           "id": "jill-grano",
-          "answer": ``
+          "answer": `There are two big considerations which must be part of the annexation agreement: 1. Proper flood mitigation; 2. Protection of endangered species which are on the site. These are both issues that require expert analysis which is currently underway. I will be looking to these experts to carefully weigh how we can make sure that flood mitigation is done properly and sensitively and that wildlife is protected.`
       },
       {
           "id": "eric-budd",

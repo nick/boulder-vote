@@ -2,11 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
-import SideBarLink from '../../components/SideBarLink'
 import TopicData from '../../data/Topics'
 
+import TopicTree from './_TopicTree'
+
 const Questions = (props) => {
-    var topic = TopicData.find(c => c.id === props.match.params.topic);
+    var topicId = props.match.params.topic,
+        topic = TopicData.find(c => c.id === topicId);
 
     return (
       <div>
@@ -38,16 +40,7 @@ const Questions = (props) => {
           <div className="col-md-4 col-lg-3 order-md-1">
             <hr className="d-sm-none" />
             <h5>Topics</h5>
-            <ul className="list-unstyled">
-              {TopicData.map(t =>
-                <SideBarLink
-                  key={t.id}
-                  location={props.location}
-                  href={`/topics/${t.id}`}
-                  children={t.name}
-                />
-              )}
-            </ul>
+            <TopicTree location={props.location} topicId={topicId} />
           </div>
         </div>
       </div>

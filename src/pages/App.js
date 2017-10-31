@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Switch, Route, Link, NavLink } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
+// import Search from '../components/Search';
+
 import daysToGo from '../lib/daysToGo';
 
 import Topics from './topics/Topics';
@@ -92,6 +94,7 @@ class App extends Component {
                       >About</NavLink>
                     </li>
                   </ul>
+                  {/* <Search /> */}
                 </div>
               </div>
             </nav>

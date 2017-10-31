@@ -13,6 +13,7 @@
   "author": "Nick Poulden",
   "license": "MIT",
   "dependencies": {
+    "algoliasearch": "^3.24.5",
     "babel-core": "^6.26.0",
     "babel-preset-react": "^6.24.1",
     "express": "^4.16.2",

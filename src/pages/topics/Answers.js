@@ -10,8 +10,8 @@ import CandidateData from '../../data/Candidates'
 import TopicData from '../../data/Topics'
 
 import CandidateNames from '../../components/CandidateNames'
-import Answer from '../../components/CandidateAnswer';
-import SideBarLink from '../../components/SideBarLink'
+import Answer from '../../components/CandidateAnswer'
+import TopicTree from './_TopicTree'
 
 const TopicAnswers = (props) => {
     var topicId = props.match.params.topic,
@@ -68,16 +68,11 @@ const TopicAnswers = (props) => {
           <div className="col-md-4 col-lg-3 order-md-1">
             <hr className="d-sm-none" />
             <h5>Topics</h5>
-            <ul className="list-unstyled">
-              {TopicData.map(t =>
-                <SideBarLink
-                  key={t.id}
-                  location={props.location}
-                  href={`/topics/${t.id}`}
-                  children={t.name}
-                />
-              )}
-            </ul>
+            <TopicTree
+              candidateId={candidateId}
+              topicId={topicId}
+              location={props.location}
+            />
           </div>
         </div>
       </div>
