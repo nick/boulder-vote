@@ -41,6 +41,11 @@ a, button {
 .side-link:hover .c {
   visibility: visible;
 }
+@media (pointer:coarse) {
+  .side-link:hover .c {
+    visibility: hidden;
+  }
+}
 .side-link.active .c {
   visibility: visible;
   color: #000;
