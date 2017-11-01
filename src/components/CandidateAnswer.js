@@ -21,27 +21,25 @@ const Answer = (props) => {
           tweet = `https://twitter.com/intent/tweet?url=${encodedURL}&text=@${candidate.twitter}`;
 
     return (
-      <div className="d-flex">
+      <div className="candidate-answer">
         <ProfilePic candidate={candidate} />
-        <div style={{ marginLeft: '1.5rem' }}>
-          {(!candidateAnswer || !candidateAnswer.answer)
-            ? <i>{`No response from ${candidate.name}`}</i>
-            : (
-              <div>
-                {styleHtml(candidateAnswer.answer)}
-                {!candidate.twitter ? null :
-                  <div className="mt-2">
-                    <a href={tweet} onClick={(e) => onClickTweet(e, tweet)}>
-                      <i className="fa fa-twitter mr-1" />
-                      {`Tweet @${candidate.twitter} about this issue`}
-                    </a>
-                  </div>
-                }
-                {/* <Rate /> */}
-              </div>
-            )
-          }
-        </div>
+        {(!candidateAnswer || !candidateAnswer.answer)
+          ? <i>{`No response from ${candidate.name}`}</i>
+          : (
+            <div>
+              {styleHtml(candidateAnswer.answer)}
+              {!candidate.twitter ? null :
+                <div className="mt-2">
+                  <a href={tweet} onClick={(e) => onClickTweet(e, tweet)}>
+                    <i className="fa fa-twitter mr-1" />
+                    {`Tweet @${candidate.twitter} about this issue`}
+                  </a>
+                </div>
+              }
+              {/* <Rate /> */}
+            </div>
+          )
+        }
       </div>
     )
 }

@@ -6,7 +6,7 @@ class CandidateProfiles extends Component {
         return (
           <div className="row">
             {this.props.candidates.map(c =>
-              <div key={c.id} className="col-md-6 col-lg-4 col-xl-3">
+              <div key={c.id} className="col-6 col-lg-4 col-xl-3">
                 <div className="candidate" onClick={() =>
                   this.props.history.push(`/candidate/${c.id}`)
                 }>

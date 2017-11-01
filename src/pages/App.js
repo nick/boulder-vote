@@ -26,11 +26,11 @@ class App extends Component {
         this.state = {}
     }
 
-    // componentDidUpdate(prevProps) {
-    //   if (this.props.location !== prevProps.location) {
-    //     window.scrollTo(0, 0)
-    //   }
-    // }
+    componentDidUpdate(prevProps) {
+      if (window.innerWidth <= 575 && this.props.location !== prevProps.location) {
+        window.scrollTo(0, 0)
+      }
+    }
 
     render() {
         return (
@@ -56,7 +56,7 @@ class App extends Component {
                   <span className="navbar-text d-none d-md-block">
                     {`${daysToGo()} days until election!`}
                   </span>
-                  <ul className="navbar-nav ml-auto">
+                  <ul className="navbar-nav ml-auto text-right">
                     <li className="nav-item">
                       <NavLink
                         className="nav-link"
