@@ -220,11 +220,21 @@ shared vision for Boulder. I was a Boulder City Council member 1986-1989; a Gate
       },
       {
           "id": "john-gerstle",
-          "answer": ``
+          "answer": `As somebody who was raised in Boulder and has lived here for over 50 years, I am interested in helping Boulder move ahead with practical decisions that are based on the values and practices that have made Boulder one of the most successful and desirable cities in the country. These values include "paying it forward" - the willingness to invest in projects and practices that benefit the publlc, and acceptance of limitations on private actions and practices that have tangible or intangible adverse impacts on the public. My top priorities are:
+
+To ensure that both public and private changes in Boulder move ahead with due consideration of impacts to the public and the City of Boulder
+
+To ensure that housing in Boulder is available for residents with a wide range of incomes, so that Boulder's social and cultural character retains its vitality.
+
+To ensure that Boulder's desirable characteristics and features retain their central position in decisions made about growth and development.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `I'm running for re-election because as a long-time resident of Boulder, I’ve seen first-hand the positive changes that make Boulder a great place to live, work, and visit. Many people in Boulder have done well for themselves -- oftentimes a reflection of their ingenuity, courage, sacrifice, and hard work. On the other hand, I’ve also seen working individuals and families squeezed out of Boulder, unable to afford ever-increasing Boulder housing costs. Now more than ever, policies need to be crafted that put community first and people above profit. I've served on council for four years now and I feel like I'm just getting started. My top three priorities:
+
+- Make Boulder walk their talk when it comes to being "welcoming and inclusive."
+- Carry forward Boulder's legendary planning legacy
+- To listen`
       },
       {
           "id": "sam-weaver",
@@ -314,11 +324,11 @@ the issue seems to be one of less self interested candidates and council members
       },
       {
           "id": "john-gerstle",
-          "answer": ``
+          "answer": `I do not favor changes to this structure. It has worked well to represent citizens for many years. Since we have a weak Mayor/City Manager system, having the council members select who they want to run the meetings and be the face of the council seems completely appropriate.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `None. A strong mayor system would be an elected official in charge of city management who may not have the qualifications. Districts would pit one district against another in a competition for line items on the budget.`
       },
       {
           "id": "sam-weaver",
@@ -411,11 +421,13 @@ change.`
       },
       {
           "id": "john-gerstle",
-          "answer": ``
+          "answer": `I might start by finding out why these segments of our population find it hard to engage in City affairs. We all have our opinions and anecdotes but little in the way of real data. Some potential measures might include targeted outreach to specific populations, holding meetings and events at different times of the day and in different locations in the city, creating city events that are just for fun that would be of interest to younger residents and families.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `First, I would stop using the term "minorities." Consider using People of Color if that is who you are referring to, diverse socioeconomic representation if that is who you are referring to, etc.
+
+Second, The Public Participation Working Group spent the better part of a year developing recommendations for good public engagement: A clearly defined problem, thoughtfully planned public engagement, all voices are encouraged and included, public contribution and civil participation are fostered, process is trustworthy and transparent process. These core principles, if applied well, I believe will foster broader participation.`
       },
       {
           "id": "sam-weaver",
@@ -517,11 +529,11 @@ and building affordable housing onsite`
       },
       {
           "id": "john-gerstle",
-          "answer": ``
+          "answer": `The trend in increasing density is alarming to many. The cost of housing is related to the continual addition of more and more jobs in a desirable place to live. Other cities struggling with the same issue (San Francisco, for example) have demonstrated that density does not create affordability, and Boulder’s experience proves this to be true in smaller cities also. If we want affordability in our housing, government must play a strong role through regulatory requirements and investment of financial resources. The private sector develops what sells at the highest price in the market place, and on its own will never be the solution to affordability of housing.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Density is not a policy it is a tool to be used in order to achieve other community goals that include walkability, climate action and transportation. Government should take a huge role in ensuring achievement of our community goals. Left to its own devices, the private sector's main concern is profit. In and of itself, not a bad thing, but tends not to consider the greater good.`
       },
       {
           "id": "sam-weaver",
@@ -598,11 +610,11 @@ but we need to keep in mind not displacing small service businesses.`
       },
       {
           "id": "john-gerstle",
-          "answer": ``
+          "answer": `Any area of Boulder could have more residential density crammed in; however, the real question is where and in what form do existing residents support increased density. Without their support, every effort to add density will elicit a battle like the ones we have seen in recent years. A constructive approach would be a significant planning effort that includes integrated neighborhood, area and sub- community plans that are based on input from the affected citizens, similar to the North Boulder Sub-community Plan process of the 1990’s.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Yes, along our community transit network corridors and under the backdrop of sub-community, area and/or neighborhood planning.`
       },
       {
           "id": "sam-weaver",
@@ -693,11 +705,15 @@ utility is one tool to help us make changes faster, so I support it.`
       },
       {
           "id": "john-gerstle",
-          "answer": ``
+          "answer": `I support continuing the process until we succeed or find it is impossible to proceed. I have become better informed through the municipalization process but I have not changed my position. Boulder's interests do not fully align with those of Xcel and nationally, the whole nature of electric energy delivery is moving away from Xcel’s vertically-integrated business model. Boulder must control its electric energy delivery system if we want to reduce our dependence on fossil fuels and be able to respond to new technology and business models.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `The municipalization project is everything to our ability to achieve our Climate Commitment (100% clean energy by 2030, 80% emissions reduction by 2050.) Not only that, it stands to prove whether or not a municipality can realistically exercise their constitutional right to extricate itself from a regulated monopoly. Boulder’s effort, whichever way the ruling goes and whatever the outcome of the proposed ballot initiatives, will determine which way the whole state goes. If we cannot create a municipal utility, the effort moves on to change things at the state level. Many municipalities within the state have been carefully watching the process of Boulder’s effort.
+
+I would support continuing to explore our municipal utility if the PUC rules in our favor. If not, I would support a strong effort at the state level.
+
+Because it's not about saving the planet, it is about saving ourselves.`
       },
       {
           "id": "sam-weaver",
@@ -779,11 +795,11 @@ Boulder has had, for decades, a municipal water utility. When residents turn on 
       },
       {
           "id": "john-gerstle",
-          "answer": ``
+          "answer": `I support renewing the tax on City electric bills that is helping to fund our efforts to establish a municipal electric utility. Since it is due to expire at the end of this year, voting on this in November‘s election is required.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Place an initiative on the ballot and let the voters decide.`
       },
       {
           "id": "sam-weaver",
@@ -864,11 +880,20 @@ current and future generations." If use equals destruction, there's no place for
       },
       {
           "id": "john-gerstle",
-          "answer": ``
+          "answer": `This question inappropriately separates (a) and (b) into opposing choices. If we are to have sustainable Open Space lands in the face of what is nearing 6 million visits per year, these two goals have to be integrated into the Open Space Master Plan in a way that allows both preservation of our ecosystems and visitor access. The Open Space Charter specifies the purposes of Open Space land in such a way that requires that preservation of the natural resources and the visitor use of the land must co-exist. This means neither “minimal or no impact” nor “equally balanced goals”. It means that some areas are more appropriate for visitor use and some more appropriate for preservation, which will be determined by the Open Space Master Plan.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `It doesn't matter what my view is. The purposes of Open Space are codified in Section 176 of the charter: Open space land shall be acquired, maintained, preserved, retained, and used only for the following purposes:
+
+(a) Preservation or restoration of natural areas characterized by or including terrain, geologic formations, flora, or fauna that are unusual, spectacular, historically important, scientifically valuable, or unique, or that represent outstanding or rare examples of native species;<br/>
+(b) Preservation of water resources in their natural or traditional state, scenic areas or vistas, wildlife habitats, or fragile ecosystems;<br/>
+(c) Preservation of land for passive recreational use, such as hiking, photography or nature studies, and, if specifically designated, bicycling, horseback riding, or fishing;<br/>
+(d) Preservation of agricultural uses and land suitable for agricultural production;<br/>
+(e) Utilization of land for shaping the development of the city, limiting urban sprawl, and disciplining growth;<br/>
+(f) Utilization of non-urban land for spatial definition of urban areas;<br/>
+(g) Utilization of land to prevent encroachment on floodplains; and<br/>
+(h) Preservation of land for its aesthetic or passive recreational value and its contribution to the quality of life of the community.`
       },
       {
           "id": "sam-weaver",
@@ -947,11 +972,11 @@ As I have learned through my own experiences with Open Space, I believe that fac
       },
       {
           "id": "john-gerstle",
-          "answer": ``
+          "answer": `We will have to see a cap on visitor use of some areas of Open Space since Open Space visits are approaching 6 million per year. The most popular areas of our system cannot sustain this level of use, so some types of limits will be required. Parking fees have had a positive impact on the use at Chautauqua and might be a tool to use elsewhere; however, this will require better transit options. At the most restrictive, permits for Boulder residents and charges to Metro area users might be considered. Also encouraging and helping other communities to start or improve their own open space programs might alleviate the heavy use by non-Boulder residents.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Our Open Space is an asset of our community, and it both nurtures us and vexes us. Chautauqua currently receives more visitors than Rocky Mountain National Park, with the number of visitors at Mt. Sanitas close behind. This is good for our economy, but bad for the land and the flora and fauna which it nurtures. Add to that the the following factors: climate change, fire risk, rise in illegal camping, diminishing funding for Open Space and you have a wicked problem. Formulating a broadly acceptable stewardship plan will be a challenge to be addressed in the upcoming Open Space Master Planning process.`
       },
       {
           "id": "sam-weaver",
@@ -1039,11 +1064,11 @@ community and map the vision that we want for our town, and then put in place po
       },
       {
           "id": "john-gerstle",
-          "answer": ``
+          "answer": `Additional jobs create more housing demand, pushing housing prices higher and creating more need for affordable housing. Boulder has had a Comprehensive Plan policy since the first plan was written saying growth and development will pay its way, a policy that has gone incompletely implemented for about 40 years. New development/jobs do not pay for their impacts through the development/linkage fees they are charged, and extracting adequate fees to maintain the current level of service of our facilities and services is the primary way to address the impact of job growth.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `I see it as stressing limited resources, increased traffic, impacts to open space and reduced quality of life. We need commercial growth limits, higher linkage fees and betterment capture within our development review process.`
       },
       {
           "id": "sam-weaver",
@@ -1118,11 +1143,13 @@ businesses. That's the government intervention role.`
       },
       {
           "id": "john-gerstle",
-          "answer": ``
+          "answer": `The entrepreneurial economy is functioning fine without such expansion. Entrepreneurial ventures have always been a key part of Boulder’s small business community without particular help from the City government.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `The city already has many great relationships with the entrepreneurial and start up sector, it is THE focus of the current Economic Sustainability Strategy.
+
+We currently have a bigger issue that needs to be addressed in the loss of small, local businesses that are losing their leases and being forced out of town or out of business. There are several policy actions recommended by the Institute of Local Self Reliance that the city could take to address this.`
       },
       {
           "id": "sam-weaver",
@@ -1228,11 +1255,11 @@ that whatever we do, we make the situation in Boulder better.`
       },
       {
           "id": "john-gerstle",
-          "answer": ``
+          "answer": `The first step would be to create a clear picture of what services are currently being provided by all service agencies, how they are working together to achieve the same goal, what is missing, and what funding is required. Then the required funding sources and budgets can be established. The city is currently focusing on programs to assist people out of homelessness, which I believe is appropriate. Opening the homeless shelter year round and eliminating the lottery system for entrance to the shelter would be important steps to take to do this. While emergency sheltering of transient populations will still be necessary, the focus on program approaches to homelessness would likely make Boulder less attractive to travelers.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `We currently have recommendations on the table from the Homelessness Working Group on how to change our system to better serve the needs of the homeless members of our community. These include coordinated entry, improved navigation as well as other best practices. With respect to transients, our municipal court judge has provided great data on this particular population. The number of younger males committing minor offenses rises sharply during the summer. These folks do not engage nor are they interested in engaging in services but do have impacts on our community. These impacts are best addressed through enforcement of the camping ordinance and through the provision of restroom facilities to minimize fecal waste along Boulder Creek.`
       },
       {
           "id": "sam-weaver",
@@ -1326,11 +1353,11 @@ businesses. Regardless, improved transit options could help greatly. `
       },
       {
           "id": "john-gerstle",
-          "answer": ``
+          "answer": `I would strive to reduce it, and channeling it to other modes would be one approach of many that would be required. I would advocate for more aggressive restrictions on cars than we currently use, such as requiring charging for parking everywhere. If we are channeling to other modes, we will have to provide better transit options, most importantly some solution to the “last mile” connections to people’s homes. We also have to invest in bike ways that are not in the streets if we expect to expand bicycle use to families. Technology advances such as driverless cars may be game changes in addressing this problem, but we should do everything we can to lessen the number of cars on our streets as technology develops.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Fist of all, BVCP policy 5.02 Regional Job Center by definition consigned us to a certain amount of incommuters. We need to recognize that fact. Efforts are already under way to both accommodate the traffic and channel it to transit use. The managed lane in combination with BRT have reduced the commuting time between Boulder and Denver. I think that the coming disruption of solar powered autonomous vehicles will be our biggest opportunity to reduce traffic, but we must begin to plan now.`
       },
       {
           "id": "sam-weaver",
@@ -1407,11 +1434,11 @@ on providing frequent non polluting electric shuttles.`
       },
       {
           "id": "john-gerstle",
-          "answer": ``
+          "answer": `I am not sure that this is an accurate description of why parking is being limited. The cost of land and therefore building of parking exceptionally expensive, and there are many better uses of land than for parking. This does encourage the use of alternate modes, which makes it possible to maintain economic vitality and livability in areas with constrained parking. This also requires investment in alternate modes options for residents and employees to be able to live and work in this economic situation.`
       },
       {
           "id": "mary-young",
-          "answer": ``
+          "answer": `Yes. The policy has worked well. Transit usage is the highest of any area in the city at ~ 30%. But, we need to make sure that all employees needs are considered. Some workers, such as restaurant and hospitality workers, have the lowest EcoPass utilization. That is because they have no choice but to drive because of their late hours. I worked with staff to create a downtown night time worker pass that is currently being piloted.`
       },
       {
           "id": "sam-weaver",
