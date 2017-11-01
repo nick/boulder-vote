@@ -70,6 +70,7 @@ const Candidate = (props) => {
     var candidateId = props.match.params.id,
         candidate = Candidates.find(c => c.id === candidateId),
         topics = candidateTopics(candidateId),
+        surveys = candidateSurveys(candidateId),
         endorsements = candidate.endorsements
         .map((e) => Groups.find((g) => g.id === e))
         .filter(g => g);
@@ -79,11 +80,9 @@ const Candidate = (props) => {
         <Helmet title={`${candidate.name}: Boulder City Council Candidate`} />
         <div className="col-sm-8 col-md-9 col-lg-6 order-sm-2">
           <h3 className="mt-3 mb-3">{candidate.name}</h3>
-          <div>
+          <div className="candidate-video">
             <iframe
               src={`https://player.vimeo.com/video/${candidate.video}?autoplay=0&byline=0&portrait=0&title=0`}
-              width="100%"
-              height="320"
               frameBorder="0"
               allowFullScreen="true"
             />
@@ -111,7 +110,7 @@ const Candidate = (props) => {
               <div>{`${candidate.yearsInBoulder} years in Boulder`}</div>
               {!topics.length ? null :
                 <div className="candidate-links mt-3">
-                  <h5>{`${candidate.firstName}'s Answered Topics:`}</h5>
+                  <h5>{`${candidate.firstName}'s Positions:`}</h5>
                   {topics.map((t, idx) =>
                     <Link key={idx} to={`/topics/${t.id}`}>
                       {t.name}
@@ -121,24 +120,24 @@ const Candidate = (props) => {
               }
             </div>
             <div className="col-md-5 mb-3">
-              {!endorsements.length ? null :
+              {!surveys.length ? null :
                 <div className="candidate-links mb-3">
-                  <h5>Endorsed by:</h5>
-                  {shuffleEachDay(endorsements).map(g =>
-                    <div key={g.id}>
-                      <Link to={`/endorsement/${g.id}`}>{g.name}</Link>
-                    </div>
+                  <h5>Surveys:</h5>
+                  {shuffleEachDay(surveys).map(s =>
+                    <Link key={s.id} to={`/surveys/${s.id}/${s.question.id}/${s.answer.id}`}>
+                      {s.name}
+                    </Link>
                   )}
                 </div>
               }
 
-              {!candidate.boulderChamberQA && !(candidate.surveys || []).length ? null :
+              {!endorsements.length ? null :
                 <div className="candidate-links mb-3">
-                  <h5>Surveys:</h5>
-                  {shuffleEachDay(candidateSurveys(candidateId) || []).map(s =>
-                    <Link key={s.id} to={`/surveys/${s.id}/${s.question.id}/${s.answer.id}`}>
-                      {s.name}
-                    </Link>
+                  <h5>Endorsements:</h5>
+                  {shuffleEachDay(endorsements).map(g =>
+                    <div key={g.id}>
+                      <Link to={`/endorsement/${g.id}`}>{g.name}</Link>
+                    </div>
                   )}
                 </div>
               }
