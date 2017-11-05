@@ -85,6 +85,9 @@ a, button {
 .candidate h5 {
   margin-bottom: 0.5rem;
 }
+.candidate h5 a {
+  color: initial;
+}
 
 .candidate-links a {
   display: block;

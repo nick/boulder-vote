@@ -20,6 +20,11 @@ var config = {
     resolve: {
         extensions: ['.js', '.json']
     },
+    devServer: {
+        headers: {
+            'Access-Control-Allow-Origin': '*'
+        }
+    }
 };
 
 module.exports = config;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router'
+import { Link } from 'react-router-dom'
 
 class CandidateProfiles extends Component {
     render() {
@@ -19,13 +20,13 @@ class CandidateProfiles extends Component {
                       backgroundSize: c.thumbnailSize || '275%'
                     }}
                   />
-                  <h5>{c.name}</h5>
+                  <h5><Link to={`/candidate/${c.id}`}>{c.name}</Link></h5>
                   <a
                     className="website"
                     href={c.website}
                     target="_blank"
                     onClick={(e) => e.stopPropagation()}
-                    children={c.website.replace(/^http:\/\//, '')}
+                    children={(c.website || '').replace(/^http:\/\//, '')}
                   />
                   <div className="social">
                     {!c.facebook ? null :

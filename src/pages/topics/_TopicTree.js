@@ -1,13 +1,13 @@
 import React from 'react';
 
-import TopicData from '../../data/Topics'
 import SideBarLink from '../../components/SideBarLink'
 
 const TopicTree = (props) => {
-    const { topicId, candidateId } = props;
+    const { topic, candidateId, topics } = props;
+    if (!topics) { return null; }
     return (
       <ul className="list-unstyled">
-        {TopicData.map(t => [
+        {topics.map(t => [
           <SideBarLink
             key={t.id}
             location={props.location}
@@ -15,13 +15,13 @@ const TopicTree = (props) => {
             children={t.name}
             exact
           />,
-          t.id !== topicId ? null : (
-            t.questions.map(q =>
+          t.id !== topic.id ? null : (
+            topic.questions.map(q =>
               <SideBarLink
-                key={`${q.survey.id}-${q.id}`}
+                key={q.id}
                 location={props.location}
                 style={{ paddingLeft: '1.5rem' }}
-                href={`/topics/${t.id}/${q.survey.id}/${q.id}${candidateId ? '/' + candidateId : ''}`}
+                href={`/topics/${t.id}/${q.surveyId}/${q.questionId}${candidateId ? '/' + candidateId : ''}`}
                 children={q.questionShort}
               />
             )

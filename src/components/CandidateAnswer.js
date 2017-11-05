@@ -1,7 +1,5 @@
 import React from 'react';
 
-import CandidateData from '../data/Candidates'
-
 import styleHtml from '../lib/styleHtml'
 import ProfilePic from './ProfilePic'
 // import Rate from './components/Rate';
@@ -12,12 +10,13 @@ function onClickTweet(e, tweet) {
     window.open(tweet, '_blank', windowOpts);
 }
 
-const Answer = (props) => {
-    const candidate = CandidateData.find(q => q.id === props.candidateId);
+const CandidateAnswer = (props) => {
+    const candidate = props.candidate;
+    if (!candidate) { return null; }
+    
     const pageURL = `https://bouldervote.com${props.path}`,
           encodedURL = encodeURIComponent(pageURL),
-          answers = props.question.answers,
-          candidateAnswer = answers.find(q => q.id === props.candidateId),
+          candidateAnswer = props.question.answer,
           tweet = `https://twitter.com/intent/tweet?url=${encodedURL}&text=@${candidate.twitter}`;
 
     return (
@@ -44,4 +43,4 @@ const Answer = (props) => {
     )
 }
 
-export default Answer;
+export default CandidateAnswer;

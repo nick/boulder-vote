@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
-// import { Link } from 'react-router-dom';
 import { Switch, Route } from 'react-router';
 import { Helmet } from 'react-helmet'
+import { graphql } from 'react-apollo'
+import gql from 'graphql-tag'
 
 import styleHtml from '../../lib/styleHtml'
-
-import BallotIssueData from '../../data/BallotIssues';
 
 import SideBarLink from '../../components/SideBarLink';
 import Tabs, { Tab } from '../../components/Tabs';
@@ -20,7 +19,11 @@ class BallotIssue extends Component {
     }
     render() {
         var props = this.props;
-        var issue = BallotIssueData.find(c => c.id === props.match.params.id);
+        if (props.data.loading) {
+            return <div>Loading...</div>
+        }
+
+        var issue = props.data.ballotIssue;
 
         return (
           <div className="row">
@@ -79,7 +82,7 @@ class BallotIssue extends Component {
             <div className="col-md-4 col-lg-3 order-md-1">
               <h5 className="mt-3">Ballot Issues</h5>
               <ul className="list-unstyled">
-                {BallotIssueData.map(i =>
+                {props.data.ballotIssues.map(i =>
                   <SideBarLink
                     key={i.id}
                     location={props.location}
@@ -112,4 +115,25 @@ class BallotIssue extends Component {
     }
 }
 
-export default BallotIssue;
+const Query = gql`
+  query getCandidate($id: String!) {
+    ballotIssues { id, name }
+    ballotIssue(id: $id) {
+      id
+      name
+      shortName
+      description
+      shortDescription
+      caps
+      text
+      answers { id, text }
+      summary
+      commentsAgainst
+      commentsFor
+    }
+  }
+`;
+
+export default graphql(Query, {
+  options: (props) => ({ variables: props.match.params })
+})(BallotIssue);

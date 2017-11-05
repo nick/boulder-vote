@@ -9,13 +9,19 @@ class SmallCandidateProfiles extends Component {
     render() {
         return (
           <div className="candidate-names">
-            {this.props.candidates.map((c) => {
-              var disabled = this.props.disabled && this.props.disabled.indexOf(c.id) >= 0;
+            {(this.props.candidates || []).map((c) => {
+              var disabled = false;
+              if (this.props.disabled && this.props.disabled.indexOf(c.id) >= 0) {
+                  disabled = true;
+              } else if (this.props.enabled && this.props.enabled.indexOf(c.id) < 0) {
+                  disabled = true;
+              }
+              var href = `${this.props.urlPrefix || '/candidate'}/${c.id}`;
               return (
                 <a
                   key={c.id}
                   className={`candidate-name${this.props.selected === c.id ? ' active' : ''}${disabled ? ' disabled' : ''}`}
-                  href={`/candidate/${c.id}`}
+                  href={href}
                   onClick={(e) => {
                     e.preventDefault();
                     if (disabled) {
@@ -25,7 +31,7 @@ class SmallCandidateProfiles extends Component {
                       this.props.onSelect(c.id)
                     }
                     else {
-                      this.props.history.push(`/candidate/${c.id}`)
+                      this.props.history.push(href)
                     }
                   }}
                 >

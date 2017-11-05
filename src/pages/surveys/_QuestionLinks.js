@@ -4,9 +4,10 @@ import SideBarLink from '../../components/SideBarLink'
 
 const QuestionLinks = (props) => {
     const { survey, candidateId, location } = props;
+    if (!survey) { return null; }
     return (
       <ul className="list-unstyled">
-        {survey.questions.map(q =>
+        {(survey.questions || []).map(q =>
           <SideBarLink
             key={q.id}
             location={location}

@@ -1,17 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
+import { graphql } from 'react-apollo'
+import gql from 'graphql-tag'
 
 import SideBarLink from '../../components/SideBarLink'
-import SurveyData from '../../data/Surveys'
 import QuestionLinks from './_QuestionLinks';
 
 const Questions = (props) => {
-    var survey = SurveyData.find(c => c.id === props.match.params.survey);
+
+    if (props.data.loading) {
+      return <div>Loading...</div>
+    }
+
+    var survey = props.data.survey;
 
     return (
       <div>
-        <Helmet title={`Survey ${survey.name}`} />
+        <Helmet title={`${survey.name} Survey`} />
         <nav className="breadcrumb mt-3">
           <Link to="/" className="breadcrumb-item">Home</Link>
           <Link to="/surveys" className="breadcrumb-item">Surveys</Link>
@@ -22,12 +28,12 @@ const Questions = (props) => {
             <h5 className="mb-3">{survey.name} Survey</h5>
             <div style={{ maxWidth: 660 }}>
               <ol className="mb-2">
-                {survey.questions.filter(q => q.question).map(q =>
+                {survey.questions.map(q =>
                   <li key={q.id} className="mb-3">
                     {q.question}<br/>
                     <div style={{ fontSize: 14}}>
-                      <Link to={`/surveys/${survey.id}/${q.id}`} onClick={() => window.scrollTo(0, 0)}>
-                        {`${q.answers.filter(a => a.answer).length} responses`}
+                      <Link to={`/surveys/${survey.id}/${q.id}`}>
+                        {`${q.answerCount} responses`}
                       </Link>
                     </div>
                   </li>
@@ -39,7 +45,7 @@ const Questions = (props) => {
             <hr className="d-sm-none" />
             <h5>Surveys</h5>
             <ul className="list-unstyled">
-              {SurveyData.map(s =>
+              {props.data.surveys.map(s =>
                 <SideBarLink
                   key={s.id}
                   location={props.location}
@@ -59,4 +65,18 @@ const Questions = (props) => {
     )
 }
 
-export default Questions;
+const Query = gql`
+  query($survey: String!) {
+    surveys { id, shortName }
+    survey(id: $survey) {
+      id, name, shortName
+      questions {
+        id, question, questionShort, answerCount
+      }
+    }
+  }
+`;
+
+export default graphql(Query, {
+  options: (props) => ({ variables: props.match.params })
+})(Questions);

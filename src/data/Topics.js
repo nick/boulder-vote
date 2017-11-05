@@ -59,11 +59,16 @@ export default Topics.map(t => {
     var topicQuestions = [];
     SurveyData.forEach(s => {
         s.questions.filter(q => (q.topics || []).indexOf(t.id) >= 0).forEach(q => {
-            topicQuestions.push(Object.assign({}, q, { survey: s }))
+            topicQuestions.push(Object.assign({}, q, {
+                id: `${s.id}-${q.id}`,
+                questionId: q.id,
+                surveyId: s.id,
+                answerCount: (q.answers || []).filter(a => a.answer).length
+            }))
         });
     });
     return Object.assign({}, t, {
-        numQuestions: topicQuestions.length,
+        questionCount: topicQuestions.length,
         questions: topicQuestions
     })
 });

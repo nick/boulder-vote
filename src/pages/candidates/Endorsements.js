@@ -1,27 +1,21 @@
 import React from 'react'
-import { Redirect } from 'react-router'
 import { Helmet } from 'react-helmet'
-
-import shuffleEachDay from '../../lib/shuffleEachDay'
-import Candidates from '../../data/Candidates'
-import Groups from '../../data/Groups'
+import { graphql } from 'react-apollo'
+import gql from 'graphql-tag'
 
 import SmallCandidateProfiles from '../../components/SmallCandidateProfiles'
 
 const Endorsements = (props) => {
-    var endorsementId = props.match.params.group,
-        endorser = Groups.find(g => g.id === endorsementId);
 
-    if (!endorser) { return <Redirect to="/" /> }
+    if (props.data.loading) {
+        return <div>Loading...</div>
+    }
 
-    var candidates = Candidates.filter(c =>
-        c.endorsements.indexOf(endorsementId) >= 0
-    )
-    var title = `${endorser.name} endorsements for Boulder City Council`;
+    var endorser = props.data.group;
 
     return (
       <div>
-        <Helmet title={title} />
+        <Helmet title={`${endorser.name} endorsements for Boulder City Council`} />
         <div className="mb-3">
           <h5>{endorser.name} endorsements</h5>
           {!endorser.endorsements ? null :
@@ -30,9 +24,22 @@ const Endorsements = (props) => {
             </div>
           }
         </div>
-        <SmallCandidateProfiles candidates={shuffleEachDay(candidates)}/>
+        <SmallCandidateProfiles
+          candidates={props.data.endorsement}
+        />
       </div>
     )
 }
 
-export default Endorsements;
+const Query = gql`
+  query($group: String!) {
+    group(id: $group) { id, name, endorsements }
+    endorsement(id: $group) {
+      id, name, videoThumbnail, thumbnailSize, offsetX, offsetY
+    }
+  }
+`;
+
+export default graphql(Query, {
+  options: (props) => ({ variables: props.match.params })
+})(Endorsements);
